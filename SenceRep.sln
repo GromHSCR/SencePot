@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep", "SenceRep\SenceRep.csproj", "{0232DE9F-82A1-4D50-A36B-47B5B3944D34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Entities", "SenceRep.GromHSCR.Entities\SenceRep.GromHSCR.Entities.csproj", "{475974E9-3178-4C8A-99E8-099775160EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Repository", "SenceRep.GromHSCR.Repository\SenceRep.GromHSCR.Repository.csproj", "{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0232DE9F-82A1-4D50-A36B-47B5B3944D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0232DE9F-82A1-4D50-A36B-47B5B3944D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0232DE9F-82A1-4D50-A36B-47B5B3944D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475974E9-3178-4C8A-99E8-099775160EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475974E9-3178-4C8A-99E8-099775160EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475974E9-3178-4C8A-99E8-099775160EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475974E9-3178-4C8A-99E8-099775160EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
