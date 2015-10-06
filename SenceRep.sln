@@ -7,7 +7,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep", "SenceRep\SenceR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Entities", "SenceRep.GromHSCR.Entities\SenceRep.GromHSCR.Entities.csproj", "{475974E9-3178-4C8A-99E8-099775160EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Repository", "SenceRep.GromHSCR.Repository\SenceRep.GromHSCR.Repository.csproj", "{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.ActionBase", "SenceRep.GromHSCR.ActionBase\SenceRep.GromHSCR.ActionBase.csproj", "{AC917D37-59C3-4BD1-BD9C-1F90E9313218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Common", "SenceRep.GromHSCR.Common\SenceRep.GromHSCR.Common.csproj", "{02DA881E-BAF2-4A02-B393-DEEE84DBFA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.CompostionBase", "SenceRep.GromHSCR.CompostionBase\SenceRep.GromHSCR.CompostionBase.csproj", "{D720DF75-FC08-4729-A03B-C2C7BDF44255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Controls", "SenceRep.GromHSCR.Controls\SenceRep.GromHSCR.Controls.csproj", "{AA979821-FF45-4D5B-B59A-FA8AEDFF7728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Converters", "SenceRep.GromHSCR.Converters\SenceRep.GromHSCR.Converters.csproj", "{E16F81BA-8CEB-43AA-9282-6E7DEDCF3A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.DocumentBase", "SenceRep.GromHSCR.DocumentBase\SenceRep.GromHSCR.DocumentBase.csproj", "{E9349287-2CB4-4F47-9CB3-FD1538694C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Helpers", "SenceRep.GromHSCR.Helpers\SenceRep.GromHSCR.Helpers.csproj", "{E83517E4-B85A-4338-9BE5-29D22FCA4E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.MvvmBase", "SenceRep.GromHSCR.MvvmBase\SenceRep.GromHSCR.MvvmBase.csproj", "{B2441378-6B17-443C-88E7-B5DFF1CEB3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Repositories", "SenceRep.GromHSCR.Repositories\SenceRep.GromHSCR.Repositories.csproj", "{658D7A27-925C-4033-B86F-56BF845181F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +39,42 @@ Global
 		{475974E9-3178-4C8A-99E8-099775160EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{475974E9-3178-4C8A-99E8-099775160EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{475974E9-3178-4C8A-99E8-099775160EB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCEFDB47-15AA-46BA-BC8A-E8F104440FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC917D37-59C3-4BD1-BD9C-1F90E9313218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC917D37-59C3-4BD1-BD9C-1F90E9313218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC917D37-59C3-4BD1-BD9C-1F90E9313218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC917D37-59C3-4BD1-BD9C-1F90E9313218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DA881E-BAF2-4A02-B393-DEEE84DBFA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DA881E-BAF2-4A02-B393-DEEE84DBFA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DA881E-BAF2-4A02-B393-DEEE84DBFA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DA881E-BAF2-4A02-B393-DEEE84DBFA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D720DF75-FC08-4729-A03B-C2C7BDF44255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D720DF75-FC08-4729-A03B-C2C7BDF44255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D720DF75-FC08-4729-A03B-C2C7BDF44255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D720DF75-FC08-4729-A03B-C2C7BDF44255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA979821-FF45-4D5B-B59A-FA8AEDFF7728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA979821-FF45-4D5B-B59A-FA8AEDFF7728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA979821-FF45-4D5B-B59A-FA8AEDFF7728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA979821-FF45-4D5B-B59A-FA8AEDFF7728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16F81BA-8CEB-43AA-9282-6E7DEDCF3A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16F81BA-8CEB-43AA-9282-6E7DEDCF3A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16F81BA-8CEB-43AA-9282-6E7DEDCF3A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16F81BA-8CEB-43AA-9282-6E7DEDCF3A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9349287-2CB4-4F47-9CB3-FD1538694C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9349287-2CB4-4F47-9CB3-FD1538694C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9349287-2CB4-4F47-9CB3-FD1538694C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9349287-2CB4-4F47-9CB3-FD1538694C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83517E4-B85A-4338-9BE5-29D22FCA4E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83517E4-B85A-4338-9BE5-29D22FCA4E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83517E4-B85A-4338-9BE5-29D22FCA4E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83517E4-B85A-4338-9BE5-29D22FCA4E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2441378-6B17-443C-88E7-B5DFF1CEB3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2441378-6B17-443C-88E7-B5DFF1CEB3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2441378-6B17-443C-88E7-B5DFF1CEB3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2441378-6B17-443C-88E7-B5DFF1CEB3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658D7A27-925C-4033-B86F-56BF845181F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658D7A27-925C-4033-B86F-56BF845181F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658D7A27-925C-4033-B86F-56BF845181F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658D7A27-925C-4033-B86F-56BF845181F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
