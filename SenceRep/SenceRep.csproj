@@ -35,6 +35,86 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Data.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Images.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Images.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Mvvm.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Printing.v14.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1.UI, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Core.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Docking.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1.Extensions, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Layout.v14.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.LayoutControl.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.NavBar.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Ribbon.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.LightGray.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.LightGray.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2007Blue.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2013.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2013.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.XtraBars.v14.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -72,6 +152,40 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Base\DocumentLocator.cs" />
+    <Compile Include="Base\DXSplashScreen\SplashScreen.xaml.cs" />
+    <Compile Include="Base\IProgramInit.cs" />
+    <Compile Include="Base\ProgramInit.cs" />
+    <Compile Include="Controls\ButtonDown.xaml.cs" />
+    <Compile Include="Controls\ButtonUp.xaml.cs" />
+    <Compile Include="Controls\DockLayoutManagerEx.cs" />
+    <Compile Include="Controls\SeanceNameAndDate.xaml.cs" />
+    <Compile Include="Validations\Attributes\INNAttribute.cs" />
+    <Compile Include="Validations\Attributes\IUniquePropertyChecker.cs" />
+    <Compile Include="Validations\Attributes\KPPAttribute.cs" />
+    <Compile Include="Validations\Attributes\NullValueBaseAttribute.cs" />
+    <Compile Include="Validations\Attributes\OGRNAttribute.cs" />
+    <Compile Include="Validations\Attributes\OGRNIPAttribute.cs" />
+    <Compile Include="Validations\Attributes\UniqueAttribute.cs" />
+    <Compile Include="Validations\ComboBoxValidationRule.cs" />
+    <Compile Include="Validations\EmptyFieldValidationRule.cs" />
+    <Compile Include="Validations\OGRNorOGRNIPValidator.cs" />
+    <Page Include="Base\DXSplashScreen\SplashScreen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ButtonDown.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ButtonUp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\SeanceNameAndDate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -84,6 +198,30 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Resources\DataTemplates.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\RowTemplates.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ValidationTemplates.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ValueConverters.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Skins\MainSkin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Skins\SchemaSkin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -112,6 +250,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documents\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="View\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Base\DXSplashScreen\Image.png" />
+    <Resource Include="Base\DXSplashScreen\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SenceRep.GromHSCR.ActionBase\SenceRep.GromHSCR.ActionBase.csproj">
+      <Project>{AC917D37-59C3-4BD1-BD9C-1F90E9313218}</Project>
+      <Name>SenceRep.GromHSCR.ActionBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Common\SenceRep.GromHSCR.Common.csproj">
+      <Project>{02da881e-baf2-4a02-b393-deee84dbfa88}</Project>
+      <Name>SenceRep.GromHSCR.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.CompostionBase\SenceRep.GromHSCR.CompostionBase.csproj">
+      <Project>{d720df75-fc08-4729-a03b-c2c7bdf44255}</Project>
+      <Name>SenceRep.GromHSCR.CompostionBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Controls\SenceRep.GromHSCR.Controls.csproj">
+      <Project>{aa979821-ff45-4d5b-b59a-fa8aedff7728}</Project>
+      <Name>SenceRep.GromHSCR.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Converters\SenceRep.GromHSCR.Converters.csproj">
+      <Project>{e16f81ba-8ceb-43aa-9282-6e7dedcf3a9d}</Project>
+      <Name>SenceRep.GromHSCR.Converters</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.DocumentBase\SenceRep.GromHSCR.DocumentBase.csproj">
+      <Project>{e9349287-2cb4-4f47-9cb3-fd1538694c30}</Project>
+      <Name>SenceRep.GromHSCR.DocumentBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Entities\SenceRep.GromHSCR.Entities.csproj">
+      <Project>{475974e9-3178-4c8a-99e8-099775160eb3}</Project>
+      <Name>SenceRep.GromHSCR.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Helpers\SenceRep.GromHSCR.Helpers.csproj">
+      <Project>{e83517e4-b85a-4338-9be5-29d22fca4e84}</Project>
+      <Name>SenceRep.GromHSCR.Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.MvvmBase\SenceRep.GromHSCR.MvvmBase.csproj">
+      <Project>{b2441378-6b17-443c-88e7-b5dff1ceb3e2}</Project>
+      <Name>SenceRep.GromHSCR.MvvmBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Repositories\SenceRep.GromHSCR.Repositories.csproj">
+      <Project>{658d7a27-925c-4033-b86f-56bf845181f0}</Project>
+      <Name>SenceRep.GromHSCR.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
