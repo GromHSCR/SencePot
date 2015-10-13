@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,14 +42,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IAddress.cs" />
+    <Compile Include="Interfaces\IBaseItem.cs" />
+    <Compile Include="Interfaces\IBuilding.cs" />
+    <Compile Include="Interfaces\ICity.cs" />
+    <Compile Include="Interfaces\IContract.cs" />
+    <Compile Include="Interfaces\ICounterModel.cs" />
+    <Compile Include="Interfaces\IDailyData.cs" />
+    <Compile Include="Interfaces\IHeatCounter.cs" />
+    <Compile Include="Interfaces\IHeatType.cs" />
+    <Compile Include="Interfaces\IHouse.cs" />
+    <Compile Include="Interfaces\IHousePrefix.cs" />
+    <Compile Include="Interfaces\IHousing.cs" />
+    <Compile Include="Interfaces\ILegalEntity.cs" />
+    <Compile Include="Interfaces\IOrganization.cs" />
+    <Compile Include="Interfaces\IPrintInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IRegion.cs" />
+    <Compile Include="Interfaces\IStreet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
