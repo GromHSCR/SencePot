@@ -1,10 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxg="clr-namespace:DevExpress.Xpf.Grid;assembly=DevExpress.Xpf.Grid.v14.1" xmlns:dxe="clr-namespace:DevExpress.Xpf.Editors;assembly=DevExpress.Xpf.Core.v14.1"
                     xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
-                    xmlns:helpers="clr-namespace:Common.Helpers;assembly=SenceRep.GromHSCR.Helpers"
+                    xmlns:helpers="clr-namespace:SenceRep.GromHSCR.Helpers;assembly=SenceRep.GromHSCR.Helpers"
 					xmlns:dialogs="clr-namespace:SenceRep.GromHSCR.Localization;assembly=SenceRep.GromHSCR.Localization"
-					xmlns:localization="clr-namespace:SenceRep.GromHSCR.Localization"
-					xmlns:helpers1="clr-namespace:SenceRep.GromHSCR.Helpers;assembly=SenceRep.GromHSCR.Helpers">
+					xmlns:helpers1="clr-namespace:SenceRep.GromHSCR.Helpers;assembly=SenceRep.GromHSCR.Helpers"
+					xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm">
 	<Style TargetType="TextBlock">
 		<Setter Property="Height" Value="25" />
 		<Setter Property="Padding" Value="0" />
@@ -34,19 +34,19 @@
 	<Style TargetType="dxg:GridControl">
 			<Setter Property="ItemsSource" Value="{Binding ItemsSourceCollection}" />
 			<Setter Property="SelectedItems" Value="{Binding SelectedItems}" />
-			<Setter Property="helpers1:InteractivityItems.Template">
+			<!--<Setter Property="helpers1:InteractivityItems.Template">
 				<Setter.Value>
 					<helpers1:InteractivityTemplate>
 						<helpers1:InteractivityItems>
 							<helpers1:InteractivityItems.Triggers>
-								<i:EventTrigger EventName="MouseDoubleClick">
+							<i:EventTrigger EventName="MouseDoubleClick">
 									<i:InvokeCommandAction Command="{Binding OpenCurrentItemCommand}" />
 								</i:EventTrigger>
 							</helpers1:InteractivityItems.Triggers>
 						</helpers1:InteractivityItems>
 					</helpers1:InteractivityTemplate>
 				</Setter.Value>
-			</Setter>
+			</Setter>-->
 	</Style>
 
 	<Style TargetType="dxe:ComboBoxEdit">

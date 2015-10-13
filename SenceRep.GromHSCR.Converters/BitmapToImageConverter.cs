@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Drawing;
 using System.Globalization;
+using System.Windows.Data;
+using SenceRep.GromHSCR.Helpers;
 
 namespace SenceRep.GromHSCR.Converters
 {

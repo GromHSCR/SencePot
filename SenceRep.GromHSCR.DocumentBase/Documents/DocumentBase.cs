@@ -6,6 +6,7 @@ using System.Windows;
 using System.Windows.Input;
 using SenceRep.GromHSCR.DocumentBase.Managers;
 using SenceRep.GromHSCR.Helpers;
+using SenceRep.GromHSCR.Localization;
 using SenceRep.GromHSCR.MvvmBase.ViewModels;
 
 namespace SenceRep.GromHSCR.DocumentBase.Documents

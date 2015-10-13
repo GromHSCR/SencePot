@@ -1,20 +1,14 @@
 ﻿using System;
 using System.Windows;
-using log4net;
-using RedKassa.Promoter.CompostionBase;
+using SenceRep.GromHSCR.CompostionBase;
 
-namespace RedKassa.Promoter
+namespace SenceRep
 {
 	class Program
 	{
-		private static readonly ILog _log = LogManager.GetLogger(typeof(Program));
-
 		[STAThreadAttribute]
 		static void Main(string[] args)
 		{
-			log4net.Config.XmlConfigurator.Configure();
-
-			_log.Debug("start");
 			try
 			{
 				Composition.RegisterCatalogsFromConfig();
@@ -24,7 +18,7 @@ namespace RedKassa.Promoter
 			}
 			catch (Exception exception)
 			{
-				_log.Error("Фатальная ошибка", exception);
+				MessageBox.Show(exception.Message);
 			}
 		}
 	}

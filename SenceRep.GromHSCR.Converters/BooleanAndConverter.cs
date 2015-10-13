@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Windows.Data;
 
 namespace SenceRep.GromHSCR.Converters
 {

@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep", "SenceRep\SenceRep.csproj", "{0232DE9F-82A1-4D50-A36B-47B5B3944D34}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3615D935-3CB8-4F99-802B-4757A3DCF596} = {3615D935-3CB8-4F99-802B-4757A3DCF596}
+		{7FFEE044-A2F5-4356-A216-3BDA5FF61237} = {7FFEE044-A2F5-4356-A216-3BDA5FF61237}
+		{47B3894B-97B3-4642-8BA5-A381CECC43B0} = {47B3894B-97B3-4642-8BA5-A381CECC43B0}
+		{8EE661D0-7CFC-49F2-815F-A23516DFF7B9} = {8EE661D0-7CFC-49F2-815F-A23516DFF7B9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Entities", "SenceRep.GromHSCR.Entities\SenceRep.GromHSCR.Entities.csproj", "{475974E9-3178-4C8A-99E8-099775160EB3}"
 EndProject
@@ -36,6 +42,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.DataService", "SenceRep.GromHSCR.DataService\SenceRep.GromHSCR.DataService.csproj", "{7FFEE044-A2F5-4356-A216-3BDA5FF61237}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Api", "SenceRep.GromHSCR.Api\SenceRep.GromHSCR.Api.csproj", "{DF769A92-BEE5-451D-9782-572460E8D650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7EA033C2-9FF9-4729-A5AC-1A74AA6E67E5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

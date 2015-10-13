@@ -2,24 +2,25 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     
                     xmlns:convertersPack="clr-namespace:SenceRep.GromHSCR.Converters;assembly=SenceRep.GromHSCR.Converters"
-                    xmlns:dx="clr-namespace:DevExpress.Xpf.Core;assembly=DevExpress.Xpf.Core.v14.1" xmlns:converters="clr-namespace:SenceRep.GromHSCR.MvvmBase.Converters;assembly=SenceRep.GromHSCR.MvvmBase"
- xmlns:helpers="clr-namespace:SenceRep.GromHSCR.ActionBase.Helpers;assembly=SenceRep.GromHSCR.ActionBase">
+                    xmlns:dx="clr-namespace:DevExpress.Xpf.Core;assembly=DevExpress.Xpf.Core.v14.1"
+					xmlns:helpers="clr-namespace:SenceRep.GromHSCR.ActionBase.Helpers;assembly=SenceRep.GromHSCR.ActionBase"
+ xmlns:converters1="clr-namespace:SenceRep.GromHSCR.MvvmBase.Converters;assembly=SenceRep.GromHSCR.MvvmBase">
 
     <dx:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
     <dx:BoolToVisibilityInverseConverter x:Key="BoolToVisibilityInverseConverter" />
     <dx:BoolInverseConverter x:Key="BoolInverseConverter"></dx:BoolInverseConverter>
-    <converters:DateTimeToShortDateStringConverter x:Key="DateTimeToShortDateStringConverter" />
-    <converters:DateTimeToStringConverter x:Key="DateTimeToStringConverter" />
-    <convertersPack:TruncateStringConverter x:Key="TruncateStringConverter" />
-    <convertersPack:BoolToDisabledConverter x:Key="BoolToDisabledConverter" />
-    <convertersPack:WaitCursorConverter x:Key="WaitCursorConverter" />
+    <converters1:DateTimeToShortDateStringConverter x:Key="DateTimeToShortDateStringConverter" />
+    <converters1:DateTimeToStringConverter x:Key="DateTimeToStringConverter" />
+	<convertersPack:TruncateStringConverter x:Key="TruncateStringConverter" />
+	<convertersPack:BoolToDisabledConverter x:Key="BoolToDisabledConverter" />
+	<convertersPack:WaitCursorConverter x:Key="WaitCursorConverter" />
     <convertersPack:BoolToCollapsedVisibilityConverter x:Key="BoolToCollapsedVisibilityConverter" />
     <convertersPack:BoolToHiddenVisibilityConverter x:Key="BoolToHiddenVisibilityConverter" />
     <convertersPack:ObjectToCollapsedVisibilityConverter x:Key="ObjectToCollapsedVisibilityConverter" />
     <convertersPack:SelectedItemToBoolConverter x:Key="SelectedItemToBoolConverter" />
     <dx:ColorToBrushConverter x:Key="ColorToBrushConverter" />
-    <converters:NameToVisibilityConverter x:Key="NameToVisibilityConverter" />
-    <converters:ZeroToBoolConverter x:Key="ZeroToBoolConverter" />
+    <converters1:NameToVisibilityConverter x:Key="NameToVisibilityConverter" />
+    <converters1:ZeroToBoolConverter x:Key="ZeroToBoolConverter" />
     <helpers:DebugConverter x:Key="DebugConverter" />
     <convertersPack:BooleanAndConverter x:Key="booleanAndConverter" />
     <convertersPack:BitmapToImageConverter x:Key="BitmapToImageConverter"></convertersPack:BitmapToImageConverter>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Data;
 
 namespace SenceRep.GromHSCR.Converters
 {

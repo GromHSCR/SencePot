@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.Composition.Primitives;
+using System.Configuration;
 
 namespace SenceRep.GromHSCR.CompostionBase.Configurations
 {

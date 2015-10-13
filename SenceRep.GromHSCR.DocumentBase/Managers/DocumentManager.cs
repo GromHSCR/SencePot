@@ -8,6 +8,7 @@ using GalaSoft.MvvmLight.Command;
 using SenceRep.GromHSCR.CompostionBase;
 using SenceRep.GromHSCR.DocumentBase.Documents;
 using SenceRep.GromHSCR.DocumentBase.Messages;
+using SenceRep.GromHSCR.MvvmBase.ViewModels;
 
 namespace SenceRep.GromHSCR.DocumentBase.Managers
 {

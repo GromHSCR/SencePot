@@ -1,4 +1,6 @@
-﻿namespace SenceRep.GromHSCR.CompostionBase.Configurations
+﻿using System.Configuration;
+
+namespace SenceRep.GromHSCR.CompostionBase.Configurations
 {
 	public class CompositionCatalogConfigurationElementCollection : ConfigurationElementCollection
 	{

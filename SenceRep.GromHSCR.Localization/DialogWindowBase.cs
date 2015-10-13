@@ -1,4 +1,6 @@
-﻿using DevExpress.Xpf.Core;
+﻿using System.Windows;
+using System.Windows.Media;
+using DevExpress.Xpf.Core;
 
 namespace SenceRep.GromHSCR.Localization
 {
