@@ -1,4 +1,6 @@
-﻿namespace SenceRep.GromHSCR.Helpers
+﻿using System.Windows;
+
+namespace SenceRep.GromHSCR.Helpers
 {
 	public class DragDropHelper
 	{

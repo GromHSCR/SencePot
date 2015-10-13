@@ -1,4 +1,4 @@
-﻿namespace SenceRep.GromHSCR.Validations.Attributes
+﻿namespace SenceRep.Validations.Attributes
 {
 	public interface IUniquePropertyChecker
 	{

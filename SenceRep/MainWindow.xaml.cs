@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SenceRep.GromHSCR
+namespace SenceRep
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml

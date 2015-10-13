@@ -121,6 +121,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
@@ -159,6 +160,10 @@
     <ProjectReference Include="..\SenceRep.GromHSCR.Helpers\SenceRep.GromHSCR.Helpers.csproj">
       <Project>{E83517E4-B85A-4338-9BE5-29D22FCA4E84}</Project>
       <Name>SenceRep.GromHSCR.Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Localization\SenceRep.GromHSCR.Localization.csproj">
+      <Project>{4c97c7b0-36db-4f97-bafd-6047c51b48ad}</Project>
+      <Name>SenceRep.GromHSCR.Localization</Name>
     </ProjectReference>
     <ProjectReference Include="..\SenceRep.GromHSCR.MvvmBase\SenceRep.GromHSCR.MvvmBase.csproj">
       <Project>{b2441378-6b17-443c-88e7-b5dff1ceb3e2}</Project>

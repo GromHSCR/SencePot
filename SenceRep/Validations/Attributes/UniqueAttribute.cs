@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace SenceRep.GromHSCR.Validations.Attributes
+namespace SenceRep.Validations.Attributes
 {
 	[AttributeUsage(AttributeTargets.Property, AllowMultiple = false,Inherited = true)]
 	public class UniqueAttribute : ValidationAttribute

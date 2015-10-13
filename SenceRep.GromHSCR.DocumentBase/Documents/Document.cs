@@ -6,6 +6,7 @@ using System.Windows.Media;
 using SenceRep.GromHSCR.DocumentBase.Dialogs;
 using SenceRep.GromHSCR.DocumentBase.Managers;
 using SenceRep.GromHSCR.DocumentBase.Messages;
+using SenceRep.GromHSCR.Localization;
 
 namespace SenceRep.GromHSCR.DocumentBase.Documents
 {

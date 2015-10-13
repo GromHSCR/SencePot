@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Input;
+using SenceRep.GromHSCR.MvvmBase.ViewModels;
 
 namespace SenceRep.GromHSCR.DocumentBase.Documents
 {

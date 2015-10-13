@@ -3,12 +3,11 @@ using System.Windows;
 using System.Windows.Threading;
 using Common.Logging;
 using GalaSoft.MvvmLight.Threading;
-using log4net.Repository.Hierarchy;
-using SenceRep.GromHSCR.Base;
+using SenceRep.Base;
+using SenceRep.Documents;
 using SenceRep.GromHSCR.CompostionBase;
-using SenceRep.GromHSCR.Documents;
 
-namespace SenceRep.GromHSCR
+namespace SenceRep
 {
 	/// <summary>
 	/// Interaction logic for App.xaml
@@ -24,7 +23,7 @@ namespace SenceRep.GromHSCR
 
 		public App()
 		{
-			Promoter.Log.Logger.StartYandexMetrica(22726);
+			//Promoter.Log.Logger.StartYandexMetrica(22726);
 			InitializeComponent();
 			DispatcherUnhandledException += AppDispatcherUnhandledException;
 			DispatcherHelper.Initialize();
@@ -46,7 +45,7 @@ namespace SenceRep.GromHSCR
 		protected override void OnExit(ExitEventArgs e)
 		{
 			base.OnExit(e);
-			Promoter.Log.Logger.StopYandexMetrica();
+			//Promoter.Log.Logger.StopYandexMetrica();
 		}
 
 		private Window CreateMainWindow()

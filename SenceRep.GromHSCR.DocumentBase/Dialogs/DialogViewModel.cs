@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Input;
+using SenceRep.GromHSCR.MvvmBase.ViewModels;
 
 namespace SenceRep.GromHSCR.DocumentBase.Dialogs
 {

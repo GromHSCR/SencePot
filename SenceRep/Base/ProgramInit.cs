@@ -1,11 +1,10 @@
 ﻿using System;
 using System.ComponentModel.Composition;
-using System.Threading.Tasks;
 using System.Windows;
-using DevExpress.Xpf.Core;
-using log4net;
+using Common.Logging;
+using SplashScreen = SenceRep.Base.DXSplashScreen.SplashScreen;
 
-namespace SenceRep.GromHSCR.Base
+namespace SenceRep.Base
 {
 	public class InitEventArgs : EventArgs
 	{
@@ -58,9 +57,9 @@ namespace SenceRep.GromHSCR.Base
 			else
 			{
 				//splash
-				if (!DXSplashScreen.IsActive)
+				if (!DevExpress.Xpf.Core.DXSplashScreen.IsActive)
 				{
-					DXSplashScreen.Show<SplashScreen>();
+					DevExpress.Xpf.Core.DXSplashScreen.Show<SplashScreen>();
 				}
 			}
 
@@ -69,9 +68,9 @@ namespace SenceRep.GromHSCR.Base
 		private void OnInitEvent()
 		{
 			if (IsInit || _action == null) return;
-			if (DXSplashScreen.IsActive)
+			if (DevExpress.Xpf.Core.DXSplashScreen.IsActive)
 			{
-				DXSplashScreen.Close();
+				DevExpress.Xpf.Core.DXSplashScreen.Close();
 				Invoke();
 			}
 		}

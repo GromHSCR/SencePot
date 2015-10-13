@@ -11,6 +11,8 @@ using DevExpress.Xpf.Ribbon;
 using SenceRep.GromHSCR.ActionBase.Common;
 using SenceRep.GromHSCR.ActionBase.Helpers;
 using SenceRep.GromHSCR.ActionBase.VisualActions;
+using SenceRep.GromHSCR.Converters;
+using SenceRep.GromHSCR.Helpers;
 
 namespace SenceRep.GromHSCR.ActionBase.Adapters
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SenceRep.GromHSCR.Base
+namespace SenceRep.Base
 {
 	public interface IProgramInit
 	{

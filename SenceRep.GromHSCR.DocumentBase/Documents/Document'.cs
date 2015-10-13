@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Linq.Expressions;
 using SenceRep.GromHSCR.Helpers;
+using SenceRep.GromHSCR.MvvmBase.ViewModels;
 
 namespace SenceRep.GromHSCR.DocumentBase.Documents
 {

@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Windows.Controls;
 using SenceRep.GromHSCR.MvvmBase.Validations;
-using SenceRep.GromHSCR.Properties;
 
-namespace SenceRep.GromHSCR.Validations
+namespace SenceRep.Validations
 {
 	internal class EmptyFieldValidationRule : ValidationRule, IValidation
 	{

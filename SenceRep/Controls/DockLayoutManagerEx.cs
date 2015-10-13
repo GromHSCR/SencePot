@@ -13,7 +13,7 @@ using DevExpress.Xpf.Layout.Core;
 using SenceRep.GromHSCR.Common;
 using SenceRep.GromHSCR.DocumentBase.Documents;
 
-namespace SenceRep.GromHSCR.Controls
+namespace SenceRep.Controls
 {
 	public class DockLayoutManagerEx : DockLayoutManager
 	{

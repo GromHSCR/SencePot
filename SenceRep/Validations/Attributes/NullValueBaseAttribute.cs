@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SenceRep.GromHSCR.Validations.Attributes
+namespace SenceRep.Validations.Attributes
 {
 	public abstract class NullValueBaseAttribute : ValidationAttribute
 	{

@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,246 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Agent" xml:space="preserve">
+    <value>Агент</value>
+  </data>
+  <data name="AgentPosition" xml:space="preserve">
+    <value>От кого:</value>
+  </data>
+  <data name="AgentsQuota" xml:space="preserve">
+    <value>По агентам</value>
+  </data>
+  <data name="AgeRestriction" xml:space="preserve">
+    <value>Возрастное ограничение</value>
+  </data>
+  <data name="AnotherPriceEditDocumentIsEditedSaveOrRefresh" xml:space="preserve">
+    <value>В других документах работающих с ценами есть не сохраненные данные. Сохраните их или обновите документы.</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="CountPosition" xml:space="preserve">
+    <value>Количество:</value>
+  </data>
+  <data name="DatePosition" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
+  <data name="DeleteEvent" xml:space="preserve">
+    <value>Удаление мероприятия</value>
+  </data>
+  <data name="DeleteEventConfirmation" xml:space="preserve">
+    <value>Удалить текущее мероприятие?</value>
+  </data>
+  <data name="EmptyFieldValidationRule" xml:space="preserve">
+    <value>Поле не должно быть пустым</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Дата окончания мероприятия</value>
+  </data>
+  <data name="EndTableMarker" xml:space="preserve">
+    <value>Маркер "Итого"</value>
+  </data>
+  <data name="EndTableMarkerColumn" xml:space="preserve">
+    <value>Колонка маркера</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="EventCode" xml:space="preserve">
+    <value>Введите код</value>
+  </data>
+  <data name="EventEndDate" xml:space="preserve">
+    <value>Укажите время окончания</value>
+  </data>
+  <data name="EventLegalEntity" xml:space="preserve">
+    <value>Укажите юр. лицо</value>
+  </data>
+  <data name="EventName" xml:space="preserve">
+    <value>Введите название мероприятия</value>
+  </data>
+  <data name="EventPosition" xml:space="preserve">
+    <value>Мероприятие:</value>
+  </data>
+  <data name="EventStartDate" xml:space="preserve">
+    <value>Укажите время начала</value>
+  </data>
+  <data name="File_Load_exception" xml:space="preserve">
+    <value>Файл сконвертирован некорректно</value>
+  </data>
+  <data name="File_undefined" xml:space="preserve">
+    <value>Файл не распознан или в нём нет данных.</value>
+  </data>
+  <data name="File_Undefined_Or_No_Data" xml:space="preserve">
+    <value>Файл не распознан или в нём нет данных:</value>
+  </data>
+  <data name="Genitive" xml:space="preserve">
+    <value>Родительный падеж</value>
+  </data>
+  <data name="Hall" xml:space="preserve">
+    <value>Зал</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="IndividualEntrepreneur" xml:space="preserve">
+    <value>Индивидуальный предприниматель</value>
+  </data>
+  <data name="INN" xml:space="preserve">
+    <value>ИНН</value>
+  </data>
+  <data name="IsNotOnlyUnchecked" xml:space="preserve">
+    <value>Только непроверенные</value>
+  </data>
+  <data name="IsOnlySelectedAgent" xml:space="preserve">
+    <value>Только для выбранного агента</value>
+  </data>
+  <data name="KPP" xml:space="preserve">
+    <value>КПП</value>
+  </data>
+  <data name="LegalEntity" xml:space="preserve">
+    <value>Юр. лицо</value>
+  </data>
+  <data name="LoadingDocument" xml:space="preserve">
+    <value>Загрузка документа...</value>
+  </data>
+  <data name="MainDocument_AdminRoomExecute_Введён_не_правильный_пароль" xml:space="preserve">
+    <value>Введён не правильный пароль</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Ответственный менеджер</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Nominative" xml:space="preserve">
+    <value>Именительный падеж</value>
+  </data>
+  <data name="OGRN" xml:space="preserve">
+    <value>ОГРН</value>
+  </data>
+  <data name="OGRNIP" xml:space="preserve">
+    <value>ОГРНИП</value>
+  </data>
+  <data name="OnBasis" xml:space="preserve">
+    <value>Действует на основании</value>
+  </data>
+  <data name="Percent" xml:space="preserve">
+    <value>(%)процент</value>
+  </data>
+  <data name="Place" xml:space="preserve">
+    <value>Место проведения</value>
+  </data>
+  <data name="PlaceGroup" xml:space="preserve">
+    <value>Группа мест проведения</value>
+  </data>
+  <data name="PlacePosition" xml:space="preserve">
+    <value>Место проведения:</value>
+  </data>
+  <data name="PositionInTable" xml:space="preserve">
+    <value>Положение в таблице</value>
+  </data>
+  <data name="PricePosition" xml:space="preserve">
+    <value>Цена:</value>
+  </data>
+  <data name="Promoter" xml:space="preserve">
+    <value>Организатор</value>
+  </data>
+  <data name="Raise" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="RedoProgress" xml:space="preserve">
+    <value>Повтор...</value>
+  </data>
+  <data name="Reduce" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="RePriceSeatsDocument_ShowNotification" xml:space="preserve">
+    <value>В других документах работающих с ценами есть не сохраненные данные. Продолжить?</value>
+  </data>
+  <data name="RePriceViewModel_currency" xml:space="preserve">
+    <value>единиц</value>
+  </data>
+  <data name="ReturnVoucherLoadDocument_LoadSeatsFromReturnEvent_Места_из_накладной_не_найдены_на_схеме" xml:space="preserve">
+    <value>Места из накладной не найдены на схеме</value>
+  </data>
+  <data name="RowPosition" xml:space="preserve">
+    <value>Ряд:</value>
+  </data>
+  <data name="SaveEvent" xml:space="preserve">
+    <value>Сохранение мероприятия</value>
+  </data>
+  <data name="SaveEventConfirmation" xml:space="preserve">
+    <value>Сохранить изменения?</value>
+  </data>
+  <data name="Scheme" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="Scheme_does_not_exist" xml:space="preserve">
+    <value>Схемы не существует</value>
+  </data>
+  <data name="SeatCount" xml:space="preserve">
+    <value>Кол-во мест</value>
+  </data>
+  <data name="SeatFromPosition" xml:space="preserve">
+    <value>Места с:</value>
+  </data>
+  <data name="SeatGroupPosition" xml:space="preserve">
+    <value>Тип мест:</value>
+  </data>
+  <data name="Seats_not_found" xml:space="preserve">
+    <value>Места не найдены</value>
+  </data>
+  <data name="Seats_not_found_on_scheme" xml:space="preserve">
+    <value>Места из накладной не найдены на схеме</value>
+  </data>
+  <data name="SeatToPosition" xml:space="preserve">
+    <value>Места по:</value>
+  </data>
+  <data name="SectorPosition" xml:space="preserve">
+    <value>Сектор:</value>
+  </data>
+  <data name="SelectDefaultPromoterLegalEntity" xml:space="preserve">
+    <value>Выберите юридическое лицо</value>
+  </data>
+  <data name="SelectedAgentRequired" xml:space="preserve">
+    <value>Необходимо выбрать агента</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Дата начала мероприятия</value>
+  </data>
+  <data name="SumPricePosition" xml:space="preserve">
+    <value>Сумма:</value>
+  </data>
+  <data name="SupplierPosition" xml:space="preserve">
+    <value>Кому:</value>
+  </data>
+  <data name="TimePosition" xml:space="preserve">
+    <value>Время:</value>
+  </data>
+  <data name="unaccepted_operation" xml:space="preserve">
+    <value>Существует неподтвержденная операция с этими местами. Подтвердите операции.</value>
+  </data>
+  <data name="UndoProgress" xml:space="preserve">
+    <value>Откат...</value>
+  </data>
+  <data name="VoucherOperations" xml:space="preserve">
+    <value>Операции с накладными</value>
+  </data>
+  <data name="VoucherTemplate" xml:space="preserve">
+    <value>Шаблон накладной</value>
+  </data>
+  <data name="VoucherTemplateRequired" xml:space="preserve">
+    <value>Необходимо выбрать шаблон накладной</value>
+  </data>
+  <data name="Xml_Extension_String" xml:space="preserve">
+    <value>.xml</value>
+  </data>
 </root>

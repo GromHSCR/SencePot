@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Windows.Media.Imaging;
 
 namespace SenceRep.GromHSCR.Helpers
 {

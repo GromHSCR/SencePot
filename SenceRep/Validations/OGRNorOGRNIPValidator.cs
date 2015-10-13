@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace SenceRep.GromHSCR.Validations
+namespace SenceRep.Validations
 {
 	public static class OGRNorOGRNIPValidator
 	{

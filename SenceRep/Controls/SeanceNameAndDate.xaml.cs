@@ -1,7 +1,6 @@
 ﻿using System.Windows;
-using RedKassa.Controls;
 
-namespace SenceRep.GromHSCR.Controls
+namespace SenceRep.Controls
 {
 	/// <summary>
 	/// Interaction logic for SeanceNameAndDate.xaml

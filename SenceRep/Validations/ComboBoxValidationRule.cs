@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using SenceRep.GromHSCR.MvvmBase.Validations;
 
-namespace SenceRep.GromHSCR.Validations
+namespace SenceRep.Validations
 {
 	internal class ComboBoxValidationRule : ValidationRule, IValidation
 	{

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SenceRep.GromHSCR.Validations.Attributes
+namespace SenceRep.Validations.Attributes
 {
 	public class KPPAttribute : NullValueBaseAttribute
 	{

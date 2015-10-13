@@ -1,6 +1,4 @@
-﻿using SenceRep.GromHSCR.Helpers;
-
-namespace SenceRep.GromHSCR.Controls
+﻿namespace SenceRep.Controls
 {
 	/// <summary>
 	/// Interaction logic for ButtonUp.xaml
@@ -10,7 +8,7 @@ namespace SenceRep.GromHSCR.Controls
 		public ButtonUp()
 		{
 			InitializeComponent();
-			this.Image.Source = Properties.Resources.Up_16.ToBitmapImage();
+			this.Image.Source = GromHSCR.Controls.Properties.Resources.Up_16.ToBitmapImage();
 		}
 	}
 }

@@ -3,7 +3,8 @@
                     xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
                     xmlns:helpers="clr-namespace:Common.Helpers;assembly=SenceRep.GromHSCR.Helpers"
 					xmlns:dialogs="clr-namespace:SenceRep.GromHSCR.Localization;assembly=SenceRep.GromHSCR.Localization"
-					xmlns:localization="clr-namespace:SenceRep.GromHSCR.Localization">
+					xmlns:localization="clr-namespace:SenceRep.GromHSCR.Localization"
+					xmlns:helpers1="clr-namespace:SenceRep.GromHSCR.Helpers;assembly=SenceRep.GromHSCR.Helpers">
 	<Style TargetType="TextBlock">
 		<Setter Property="Height" Value="25" />
 		<Setter Property="Padding" Value="0" />
@@ -25,16 +26,7 @@
 		<Setter Property="Padding" Value="0" />
 	</Style>
 	
-	<Style TargetType="localization:VoucherMappingDialogWindow">
-		<Setter Property="Padding" Value="0"></Setter>
-	</Style>
-
-	<Style TargetType="localization:InputDialogWindow">
-		<Setter Property="Height" Value="400"></Setter>
-		<Setter Property="Padding" Value="0"></Setter>
-	</Style>
-
-	<Style TargetType="ComboBox">
+    <Style TargetType="ComboBox">
 		<Setter Property="Height" Value="25" />
 		<Setter Property="Padding" Value="0" />
 	</Style>
@@ -42,17 +34,17 @@
 	<Style TargetType="dxg:GridControl">
 			<Setter Property="ItemsSource" Value="{Binding ItemsSourceCollection}" />
 			<Setter Property="SelectedItems" Value="{Binding SelectedItems}" />
-			<Setter Property="helpers:InteractivityItems.Template">
+			<Setter Property="helpers1:InteractivityItems.Template">
 				<Setter.Value>
-					<helpers:InteractivityTemplate>
-						<helpers:InteractivityItems>
-							<helpers:InteractivityItems.Triggers>
+					<helpers1:InteractivityTemplate>
+						<helpers1:InteractivityItems>
+							<helpers1:InteractivityItems.Triggers>
 								<i:EventTrigger EventName="MouseDoubleClick">
 									<i:InvokeCommandAction Command="{Binding OpenCurrentItemCommand}" />
 								</i:EventTrigger>
-							</helpers:InteractivityItems.Triggers>
-						</helpers:InteractivityItems>
-					</helpers:InteractivityTemplate>
+							</helpers1:InteractivityItems.Triggers>
+						</helpers1:InteractivityItems>
+					</helpers1:InteractivityTemplate>
 				</Setter.Value>
 			</Setter>
 	</Style>
