@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 
 namespace SenceRep.GromHSCR.Api.Interfaces
 {
-    public enum HeatType
+	public enum HeatType
 	{
 		/// <summary>
 		/// ГВС
@@ -29,5 +29,5 @@ namespace SenceRep.GromHSCR.Api.Interfaces
 		[Description("ЦО с циркуляцией")]
 		[EnumMember]
 		CentralHeatingWithCycle = 8
-    }
+	}
 }

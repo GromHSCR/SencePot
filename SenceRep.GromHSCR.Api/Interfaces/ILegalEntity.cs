@@ -2,7 +2,7 @@
 
 namespace SenceRep.GromHSCR.Api.Interfaces
 {
-	interface ILegalEntity : IBaseItem
+	public interface ILegalEntity : IBaseItem
 	{
 		string Name { get; set; }
 

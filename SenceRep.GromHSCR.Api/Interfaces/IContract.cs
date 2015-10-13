@@ -2,7 +2,7 @@
 
 namespace SenceRep.GromHSCR.Api.Interfaces
 {
-	interface IContract : IBaseItem
+	public interface IContract : IBaseItem
 	{
 		int Number { get; set; }
 

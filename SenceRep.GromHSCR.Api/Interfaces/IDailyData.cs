@@ -2,7 +2,7 @@
 
 namespace SenceRep.GromHSCR.Api.Interfaces
 {
-	interface IDailyData : IBaseItem
+	public interface IDailyData : IBaseItem
 	{
 		Guid PrintInfoId { get; set; }
 

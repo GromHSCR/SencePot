@@ -2,15 +2,15 @@
 
 namespace SenceRep.GromHSCR.Api.Interfaces
 {
-   public interface IHeatCounter : IBaseItem
-    {
-        int Number { get; set; }
+	public interface IHeatCounter : IBaseItem
+	{
+		int Number { get; set; }
 
-        Guid AddressId { get; set; }
+		Guid AddressId { get; set; }
 
-        ICounterModel CounterModel { get; set; }
+		ICounterModel CounterModel { get; set; }
 
-        IAddress Address { get; set; }
+		IAddress Address { get; set; }
 
-    }
+	}
 }

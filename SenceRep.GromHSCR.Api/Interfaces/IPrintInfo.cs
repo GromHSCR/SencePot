@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SenceRep.GromHSCR.Api.Interfaces
 {
-	interface IPrintInfo : IBaseItem
+	public interface IPrintInfo : IBaseItem
 	{
 		int Number { get; set; }
 

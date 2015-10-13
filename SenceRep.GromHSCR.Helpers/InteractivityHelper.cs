@@ -27,6 +27,7 @@
 
 using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Interactivity;
 using TriggerBase = System.Windows.Interactivity.TriggerBase;
 
 namespace SenceRep.GromHSCR.Helpers

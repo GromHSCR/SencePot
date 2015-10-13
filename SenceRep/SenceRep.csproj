@@ -36,9 +36,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Common.Logging">
-      <HintPath>..\packages\Common.Logging.2.0.0\lib\2.0\Common.Logging.dll</HintPath>
-    </Reference>
     <Reference Include="DevExpress.Data.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Data.v14.1.dll</HintPath>
       <Private>True</Private>
@@ -173,7 +170,7 @@
     <Compile Include="Controls\DockLayoutManagerEx.cs" />
     <Compile Include="Controls\SeanceNameAndDate.xaml.cs" />
     <Compile Include="Documents\MainDocument.cs" />
-    <Compile Include="Documents\PrintListDocument.cs" />
+    <Compile Include="Documents\PrintInfoListDocument.cs" />
     <Compile Include="Messages\ProgressMessage.cs" />
     <Compile Include="Messages\UpdateMessage.cs" />
     <Compile Include="Validations\Attributes\INNAttribute.cs" />
@@ -187,10 +184,10 @@
     <Compile Include="Validations\EmptyFieldValidationRule.cs" />
     <Compile Include="Validations\OGRNorOGRNIPValidator.cs" />
     <Compile Include="ViewModel\CollectionViewSourceEx.cs" />
-    <Compile Include="ViewModel\PrintViewModel.cs" />
+    <Compile Include="ViewModel\PrintInfoViewModel.cs" />
     <Compile Include="ViewModel\ProgressViewModel.cs" />
-    <Compile Include="View\PrintList.xaml.cs">
-      <DependentUpon>PrintList.xaml</DependentUpon>
+    <Compile Include="View\PrintInfoList.xaml.cs">
+      <DependentUpon>PrintInfoList.xaml</DependentUpon>
     </Compile>
     <Page Include="Actions\MainActions.xaml">
       <SubType>Designer</SubType>
@@ -248,7 +245,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\PrintList.xaml">
+    <Page Include="View\PrintInfoList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -292,6 +289,10 @@
     <ProjectReference Include="..\SenceRep.GromHSCR.ActionBase\SenceRep.GromHSCR.ActionBase.csproj">
       <Project>{AC917D37-59C3-4BD1-BD9C-1F90E9313218}</Project>
       <Name>SenceRep.GromHSCR.ActionBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Api\SenceRep.GromHSCR.Api.csproj">
+      <Project>{df769a92-bee5-451d-9782-572460e8d650}</Project>
+      <Name>SenceRep.GromHSCR.Api</Name>
     </ProjectReference>
     <ProjectReference Include="..\SenceRep.GromHSCR.Common\SenceRep.GromHSCR.Common.csproj">
       <Project>{02da881e-baf2-4a02-b393-deee84dbfa88}</Project>

@@ -41,7 +41,7 @@ namespace SenceRep.Documents
 
         public void Init()
         {
-            ViewPrintsCommand = DocumentManager.CreateDocumentCommand<PrintListDocument>();
+            ViewPrintsCommand = DocumentManager.CreateDocumentCommand<PrintInfoListDocument>();
 
             LoadingProgress = new ProgressViewModel();
 

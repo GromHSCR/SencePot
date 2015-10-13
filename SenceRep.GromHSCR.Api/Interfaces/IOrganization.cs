@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SenceRep.GromHSCR.Api.Interfaces
 {
-	interface IOrganization : IBaseItem
+	public interface IOrganization : IBaseItem
 	{
 		string Name { get; set; }
 

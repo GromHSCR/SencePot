@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace SenceRep.View
 {
     /// <summary>
-    /// Логика взаимодействия для UserControl1.xaml
+	/// Логика взаимодействия для PrintInfoList.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class PrintInfoList : UserControl
     {
-        public UserControl1()
+		public PrintInfoList()
         {
             InitializeComponent();
         }
