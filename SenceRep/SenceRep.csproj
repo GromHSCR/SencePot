@@ -336,10 +336,6 @@
       <Project>{4c97c7b0-36db-4f97-bafd-6047c51b48ad}</Project>
       <Name>SenceRep.GromHSCR.Localization</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SenceRep.GromHSCR.Log\SenceRep.GromHSCR.Log.csproj">
-      <Project>{f66f3521-775d-4048-be48-566516767cf0}</Project>
-      <Name>SenceRep.GromHSCR.Log</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SenceRep.GromHSCR.MvvmBase\SenceRep.GromHSCR.MvvmBase.csproj">
       <Project>{b2441378-6b17-443c-88e7-b5dff1ceb3e2}</Project>
       <Name>SenceRep.GromHSCR.MvvmBase</Name>
