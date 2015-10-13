@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace SenceRep.GromHSCR.Entities
 {
-	public class CounterModel : BaseEntity
+	public class LegalEntity : BaseEntity
 	{
 		public string Name { get; set; }
 
-		public string Version { get; set; }
+		public Guid OrganizationId { get; set; }
 
-		public DateTime Date { get; set; }
+		public virtual Organization Organization { get; set; }
 
-		public HeatType HeatType { get; set; }
+		public string INN { get; set; }
 	}
 }

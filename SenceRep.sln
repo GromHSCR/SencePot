@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep", "SenceRep\SenceRep.csproj", "{0232DE9F-82A1-4D50-A36B-47B5B3944D34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Entities", "SenceRep.GromHSCR.Entities\SenceRep.GromHSCR.Entities.csproj", "{475974E9-3178-4C8A-99E8-099775160EB3}"
@@ -36,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.DataService.Api", "SenceRep.GromHSCR.DataService.Api\SenceRep.GromHSCR.DataService.Api.csproj", "{47B3894B-97B3-4642-8BA5-A381CECC43B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.DataService", "SenceRep.GromHSCR.DataService\SenceRep.GromHSCR.DataService.csproj", "{7FFEE044-A2F5-4356-A216-3BDA5FF61237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenceRep.GromHSCR.Api", "SenceRep.GromHSCR.Api\SenceRep.GromHSCR.Api.csproj", "{DF769A92-BEE5-451D-9782-572460E8D650}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +111,10 @@ Global
 		{7FFEE044-A2F5-4356-A216-3BDA5FF61237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFEE044-A2F5-4356-A216-3BDA5FF61237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFEE044-A2F5-4356-A216-3BDA5FF61237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF769A92-BEE5-451D-9782-572460E8D650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF769A92-BEE5-451D-9782-572460E8D650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF769A92-BEE5-451D-9782-572460E8D650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF769A92-BEE5-451D-9782-572460E8D650}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
