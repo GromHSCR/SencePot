@@ -164,6 +164,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Actions\PrintInfoListActions.xaml.cs">
+      <DependentUpon>PrintInfoListActions.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Actions\MainActions.xaml.cs">
       <DependentUpon>MainActions.xaml</DependentUpon>
     </Compile>
@@ -196,6 +199,10 @@
     <Compile Include="View\PrintInfoList.xaml.cs">
       <DependentUpon>PrintInfoList.xaml</DependentUpon>
     </Compile>
+    <Page Include="Actions\PrintInfoListActions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Actions\MainActions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
