@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,10 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AssemblyCatalogs\ServicesCatalog.cs" />
+    <Compile Include="PrintService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Api\SenceRep.GromHSCR.Api.csproj">
+      <Project>{DF769A92-BEE5-451D-9782-572460E8D650}</Project>
+      <Name>SenceRep.GromHSCR.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SenceRep.GromHSCR.DataService.Api\SenceRep.GromHSCR.DataService.Api.csproj">
       <Project>{47b3894b-97b3-4642-8ba5-a381cecc43b0}</Project>
       <Name>SenceRep.GromHSCR.DataService.Api</Name>
@@ -58,6 +64,7 @@
       <Name>SenceRep.GromHSCR.Service.Api</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

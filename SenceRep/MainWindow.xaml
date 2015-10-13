@@ -4,10 +4,9 @@
 		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 		xmlns:ignore="http://www.ignore.com" xmlns:dxr="clr-namespace:DevExpress.Xpf.Ribbon;assembly=DevExpress.Xpf.Ribbon.v14.1" xmlns:dxb="clr-namespace:DevExpress.Xpf.Bars;assembly=DevExpress.Xpf.Core.v14.1" xmlns:dxc="clr-namespace:DevExpress.Xpf.Core;assembly=DevExpress.Xpf.Core.v14.1"
-		xmlns:adapters="clr-namespace:SenceRep.GromHSCR.ActionBase.Adapters;assembly=SenceRep.GromHSCR.ActionBase" xmlns:view="clr-namespace:SenceRep.GromHSCR.View"
+		xmlns:adapters="clr-namespace:SenceRep.GromHSCR.ActionBase.Adapters;assembly=SenceRep.GromHSCR.ActionBase" xmlns:view="clr-namespace:SenceRep.View"
         mc:Ignorable="d ignore"
 		dxc:ThemeManager.ThemeName="Office2013"
-		Icon="Images/sample.png"
 		WindowState="Maximized">
 	<Window.Resources>
 		<ResourceDictionary>

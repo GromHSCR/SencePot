@@ -136,6 +136,9 @@
     <Reference Include="GalaSoft.MvvmLight.WPF45">
       <HintPath>..\packages\MvvmLightLibs.4.2.30.0\lib\net45\GalaSoft.MvvmLight.WPF45.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Expression.Interactions">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -145,7 +148,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Deployment" />
-    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -170,6 +176,8 @@
     <Compile Include="Actions\MainActions.xaml.cs">
       <DependentUpon>MainActions.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Api\IEventTab.cs" />
+    <Compile Include="AssemblyCatalogs\HostCatalog.cs" />
     <Compile Include="Base\DocumentLocator.cs" />
     <Compile Include="Base\DXSplashScreen\SplashScreen.xaml.cs" />
     <Compile Include="Base\IProgramInit.cs" />
@@ -196,9 +204,12 @@
     <Compile Include="ViewModel\CollectionViewSourceEx.cs" />
     <Compile Include="ViewModel\PrintInfoViewModel.cs" />
     <Compile Include="ViewModel\ProgressViewModel.cs" />
+    <Compile Include="View\DialogWindow.xaml.cs" />
+    <Compile Include="View\EventWizard.xaml.cs" />
     <Compile Include="View\PrintInfoList.xaml.cs">
       <DependentUpon>PrintInfoList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\TabbedContent.xaml.cs" />
     <Page Include="Actions\PrintInfoListActions.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -259,7 +270,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="View\DialogWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\EventWizard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\PrintInfoList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TabbedContent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

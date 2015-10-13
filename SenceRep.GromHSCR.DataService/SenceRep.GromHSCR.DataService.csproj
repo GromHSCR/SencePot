@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,7 +33,74 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.3.0\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.3.0\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Data.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Images.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Mvvm.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.1.Core">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Printing.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1.UI">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Core.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Docking.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1.Core">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1.Extensions">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v14.1.Core">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Layout.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.LayoutControl.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.NavBar.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Ribbon.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.LightGray.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.LightGray.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2007Blue.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2013.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2013.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.XtraBars.v14.1.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,16 +110,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AssemblyCatalogs\DataServicesCatalog.cs" />
+    <Compile Include="MapInitializer.cs" />
+    <Compile Include="PrintDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Api\SenceRep.GromHSCR.Api.csproj">
+      <Project>{DF769A92-BEE5-451D-9782-572460E8D650}</Project>
+      <Name>SenceRep.GromHSCR.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SenceRep.GromHSCR.DataService.Api\SenceRep.GromHSCR.DataService.Api.csproj">
       <Project>{47b3894b-97b3-4642-8ba5-a381cecc43b0}</Project>
       <Name>SenceRep.GromHSCR.DataService.Api</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Entities\SenceRep.GromHSCR.Entities.csproj">
+      <Project>{475974E9-3178-4C8A-99E8-099775160EB3}</Project>
+      <Name>SenceRep.GromHSCR.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SenceRep.GromHSCR.Repositories\SenceRep.GromHSCR.Repositories.csproj">
+      <Project>{658D7A27-925C-4033-B86F-56BF845181F0}</Project>
+      <Name>SenceRep.GromHSCR.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <Import Project="..\packages\AutoMapper.3.3.0\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.0\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
