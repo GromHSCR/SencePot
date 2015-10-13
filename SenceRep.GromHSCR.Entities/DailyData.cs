@@ -30,6 +30,10 @@ namespace SenceRep.GromHSCR.Entities
 
 		public decimal? PressureReturn { get; set; }
 
+		public TimeSpan WorkTime { get; set; }
+
+		public string ErrorCode { get; set; }
+
 		public decimal? CurrentDayEndTotalEnergy { get; set; }
 
 		public decimal? CurrentV1 { get; set; }
@@ -37,8 +41,6 @@ namespace SenceRep.GromHSCR.Entities
 		public decimal? CurrentV2 { get; set; }
 
 		public TimeSpan? CurrentWorkTime { get; set; }
-
-		public TimeSpan WorkTime { get; set; }
 
 		public DateTime CurrentDateTime { get; set; }
 
