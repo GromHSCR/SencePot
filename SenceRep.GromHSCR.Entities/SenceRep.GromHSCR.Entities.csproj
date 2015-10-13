@@ -45,8 +45,8 @@
     <Compile Include="BaseEntity.cs" />
     <Compile Include="Building.cs" />
     <Compile Include="City.cs" />
-    <Compile Include="CounterType.cs" />
-    <Compile Include="HeatCouner.cs" />
+    <Compile Include="CounterModel.cs" />
+    <Compile Include="HeatCounter.cs" />
     <Compile Include="HeatType.cs" />
     <Compile Include="House.cs" />
     <Compile Include="HousePrefix.cs" />

@@ -12,5 +12,7 @@ namespace SenceRep.GromHSCR.Entities
 
 		public string Version { get; set; }
 
+		public HeatType HeatType { get; set; }
+
 	}
 }

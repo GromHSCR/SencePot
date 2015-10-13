@@ -12,7 +12,7 @@ namespace SenceRep.GromHSCR.Entities
 
         public Guid AddressId { get; set; }
 
-        public HeatType HeatType { get; set; }
+        public CounterModel CounterModel { get; set; }
 
         public virtual Address Address { get; set; }
 
