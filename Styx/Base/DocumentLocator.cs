@@ -15,8 +15,8 @@ using System.ComponentModel.Composition;
 using System.Threading.Tasks;
 using System.Windows;
 using Styx.Documents;
+using Styx.GromHSCR;
 using Styx.GromHSCR.CompostionBase;
-using Styx.GromHSCR.Service.Api;
 using LogManager = DevExpress.Xpo.Logger.LogManager;
 
 namespace Styx.Base

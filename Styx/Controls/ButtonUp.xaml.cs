@@ -1,4 +1,6 @@
-﻿namespace Styx.Controls
+﻿using Styx.GromHSCR.Helpers;
+
+namespace Styx.Controls
 {
 	/// <summary>
 	/// Interaction logic for ButtonUp.xaml
@@ -8,7 +10,7 @@
 		public ButtonUp()
 		{
 			InitializeComponent();
-			this.Image.Source = GromHSCR.Controls.Properties.Resources.Up_16.ToBitmapImage();
+			this.Image.Source = Properties.Resources.Up_16.ToBitmapImage();
 		}
 	}
 }

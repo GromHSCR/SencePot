@@ -20,23 +20,22 @@
         <dxg:GridControl Name="GridControl">
             <dxg:GridControl.Columns>
                 <dxg:GridColumn FieldName="Name" Header="Наименование" Width="250" />
-                <dxg:GridColumn FieldName="StartDate" Header="{x:Static properties:Resources.StartDate}">
+				<dxg:GridColumn FieldName="PrintStartDate" Header="{x:Static properties:Resources.StartDate}">
                     <dxg:GridColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding Path=Data.StartDate, Converter={StaticResource DateTimeToShortDateStringConverter}}" Padding="5" />
+							<TextBlock Text="{Binding Path=Data.PrintStartDate, Converter={StaticResource DateTimeToShortDateStringConverter}}" Padding="5" />
                         </DataTemplate>
                     </dxg:GridColumn.CellTemplate>
                 </dxg:GridColumn>
-                <dxg:GridColumn FieldName="EndDate" Header="{x:Static properties:Resources.EndDate}">
+				<dxg:GridColumn FieldName="PrintEndDate" Header="{x:Static properties:Resources.EndDate}">
                     <dxg:GridColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding Path=Data.EndDate, Converter={StaticResource DateTimeToShortDateStringConverter}}" Padding="5" />
+							<TextBlock Text="{Binding Path=Data.PrintEndDate, Converter={StaticResource DateTimeToShortDateStringConverter}}" Padding="5" />
                         </DataTemplate>
                     </dxg:GridColumn.CellTemplate>
-                </dxg:GridColumn>
-                <dxg:GridColumn FieldName="AgeRestriction" Header="{x:Static properties:Resources.AgeRestriction}" Width="100"/>
-                <dxg:GridColumn FieldName="Code" Header="{x:Static properties:Resources.Code}" Width="200" />
-                <dxg:GridColumn FieldName="Id" Header="{x:Static properties:Resources.Id}" Width="200" />
+				</dxg:GridColumn>
+				<dxg:GridColumn FieldName="FullAddress" Width="200" />
+				<dxg:GridColumn FieldName="Id" Header="{x:Static properties:Resources.Id}" Width="200" />
             </dxg:GridControl.Columns>
             <dxg:GridControl.View>
                 <dxg:TableView 

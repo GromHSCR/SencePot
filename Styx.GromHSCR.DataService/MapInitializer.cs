@@ -10,7 +10,16 @@ namespace Styx.GromHSCR.DataService
 		{
 			Mapper.Reset();
 			Mapper.CreateMap<PrintInfo, IPrintInfo>();
-			
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
+
+			Mapper.CreateMap<PrintInfo, IPrintInfo>();
 
 			Mapper.AssertConfigurationIsValid();
 		}

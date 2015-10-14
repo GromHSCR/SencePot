@@ -1,4 +1,6 @@
-﻿namespace Styx.Controls
+﻿using Styx.GromHSCR.Helpers;
+
+namespace Styx.Controls
 {
 	/// <summary>
 	/// Interaction logic for ButtonDown.xaml
@@ -8,7 +10,7 @@
 		public ButtonDown()
 		{
 			InitializeComponent();
-			this.Image.Source = GromHSCR.Controls.Properties.Resources.Down_16.ToBitmapImage();
+			this.Image.Source = Properties.Resources.Down_16.ToBitmapImage();
 		}
 	}
 }

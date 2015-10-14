@@ -43,116 +43,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Styx.GromHSCR.Controls\Styx.GromHSCR.Controls.csproj">
-      <Project>{aa979821-ff45-4d5b-b59a-fa8aedff7728}</Project>
-      <Name>Styx.GromHSCR.Controls</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Styx.GromHSCR.MvvmBase\Styx.GromHSCR.MvvmBase.csproj">
-      <Project>{b2441378-6b17-443c-88e7-b5dff1ceb3e2}</Project>
-      <Name>Styx.GromHSCR.MvvmBase</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="DevExpress.Data.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Data.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Images.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Images.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Mvvm.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Mvvm.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Printing.v14.1.Core">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Printing.v14.1.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v14.1.UI">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.UI.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="DevExpress.Xpf.Core.v14.1">
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Core.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Docking.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Docking.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.1.Core">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.1.Extensions">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Extensions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Layout.v14.1.Core">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Layout.v14.1.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.LayoutControl.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.LayoutControl.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.NavBar.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.NavBar.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Ribbon.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Ribbon.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.LightGray.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.LightGray.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2007Blue.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.Office2013.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2013.v14.1.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DevExpress.XtraBars.v14.1">
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.XtraBars.v14.1.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System">
       <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>
     </Reference>
-    <Reference Include="System.Data">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.SqlXml">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.SqlXml.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xaml" />
-    <Reference Include="System.XML">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.XML.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Serialization">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Serialization.dll</HintPath>
-    </Reference>
     <Reference Include="WindowsBase">
       <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WindowsBase.dll</HintPath>
     </Reference>

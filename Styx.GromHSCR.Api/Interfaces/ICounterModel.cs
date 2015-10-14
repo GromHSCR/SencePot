@@ -8,7 +8,7 @@ namespace Styx.GromHSCR.Api.Interfaces
 
 		string Version { get; set; }
 
-		DateTime Date { get; set; }
+		DateTime LastCheckDate { get; set; }
 
 		HeatType HeatType { get; set; }
 	}

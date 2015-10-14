@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Styx.GromHSCR;
 using Styx.GromHSCR.DocumentBase.Documents;
-using Styx.GromHSCR.Service.Api;
 using Styx.ViewModel;
 
 namespace Styx.Documents

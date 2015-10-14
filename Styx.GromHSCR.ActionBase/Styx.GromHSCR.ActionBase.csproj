@@ -36,81 +36,17 @@
       <Private>True</Private>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Data.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Images.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Images.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Mvvm.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Mvvm.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Printing.v14.1.Core.dll</HintPath>
-    </Reference>
     <Reference Include="DevExpress.Utils.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v14.1.UI, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.UI.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Core.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Core.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Docking.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Docking.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.1.Extensions, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Layout.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Layout.v14.1.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.LayoutControl.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.LayoutControl.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.NavBar.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.NavBar.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
-    </Reference>
     <Reference Include="DevExpress.Xpf.Ribbon.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Ribbon.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.LightGray.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.LightGray.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2007Blue.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Themes.Office2013.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2013.v14.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.XtraBars.v14.1.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Expression.Interactions">
       <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>

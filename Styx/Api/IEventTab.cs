@@ -1,4 +1,4 @@
-﻿namespace RedKassa.Promoter.Api
+﻿namespace Styx.Api
 {
 	internal interface IEventTab
 	{
