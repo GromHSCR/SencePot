@@ -9,8 +9,8 @@ namespace Styx.GromHSCR.Repositories.Context
 		{
 			Configuration.LazyLoadingEnabled = true;
 		}
-        
-		//public DbSet<Entities.VoucherTemplate> VoucherTemplates { get; set; }
+
+        public DbSet<Entities.PrintInfo> PrintInfos { get; set; }
 
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)

@@ -14,7 +14,6 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Threading.Tasks;
 using System.Windows;
-using Common.Logging;
 using Styx.Documents;
 using Styx.GromHSCR.CompostionBase;
 using Styx.GromHSCR.Service.Api;
@@ -35,7 +34,7 @@ namespace Styx.Base
 	public class DocumentLocator
 	{
 
-		private static readonly ILog _log = LogManager.GetLogger(typeof(Program));
+        //private static readonly ILog _log = LogManager.GetLogger(typeof(Program));
 
 		[Import(typeof(IPrintService))]
 		private IPrintService _printService;
@@ -84,7 +83,7 @@ namespace Styx.Base
 			}
 			catch (Exception e)
 			{
-				_log.Debug(e.Message);
+                //_log.Debug(e.Message);
 			}
 			finally
 			{

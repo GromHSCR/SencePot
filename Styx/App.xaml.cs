@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.Composition;
 using System.Windows;
 using System.Windows.Threading;
-using Common.Logging;
 using GalaSoft.MvvmLight.Threading;
 using Styx.Base;
 using Styx.Documents;
@@ -18,8 +17,8 @@ namespace Styx
 		[Import]
 		public DocumentLocator DocumentLocator;
 
-		[Import]
-		public ILog Log { get; set; }
+        //[Import]
+        //public ILog Log { get; set; }
 
 		public App()
 		{
@@ -31,7 +30,7 @@ namespace Styx
 
 		void AppDispatcherUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e)
 		{
-			Log.Error(e.Exception.Message, e.Exception);
+            //Log.Error(e.Exception.Message, e.Exception);
 			e.Handled = true;
 		}
 

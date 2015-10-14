@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Styx.Actions
 {
     /// <summary>
-    /// Логика взаимодействия для MainActions.xaml
+    /// Логика взаимодействия для PrintInfoListActions.xaml
     /// </summary>
-    public partial class MainActions : UserControl
+    public partial class PrintInfoListActions : UserControl
     {
-        public MainActions()
+        public PrintInfoListActions()
         {
             InitializeComponent();
         }

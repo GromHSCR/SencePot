@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel.Composition;
 using System.Windows;
-using Common.Logging;
 using SplashScreen = Styx.Base.DXSplashScreen.SplashScreen;
 
 namespace Styx.Base
@@ -20,7 +19,7 @@ namespace Styx.Base
 	[PartCreationPolicy(CreationPolicy.Any)]
 	public class ProgramInit : IProgramInit
 	{
-		private static readonly ILog _log = LogManager.GetLogger(typeof(Program));
+        //private static readonly ILog _log = LogManager.GetLogger(typeof(Program));
 		private bool _isInit;
 		private Action _action;
 

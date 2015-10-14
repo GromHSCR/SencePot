@@ -1,4 +1,5 @@
 ﻿using Styx.GromHSCR.MvvmBase.ViewModels;
+using Styx.Messages;
 
 namespace Styx.ViewModel
 {
