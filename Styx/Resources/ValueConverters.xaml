@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    
+                    xmlns:convertersPack="clr-namespace:Styx.GromHSCR.Converters;assembly=Styx.GromHSCR.Converters"
+                    xmlns:dx="clr-namespace:DevExpress.Xpf.Core;assembly=DevExpress.Xpf.Core.v14.1"
+					xmlns:helpers="clr-namespace:Styx.GromHSCR.ActionBase.Helpers;assembly=Styx.GromHSCR.ActionBase"
+ xmlns:converters1="clr-namespace:Styx.GromHSCR.MvvmBase.Converters;assembly=Styx.GromHSCR.MvvmBase">
+
+    <dx:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    <dx:BoolToVisibilityInverseConverter x:Key="BoolToVisibilityInverseConverter" />
+    <dx:BoolInverseConverter x:Key="BoolInverseConverter"></dx:BoolInverseConverter>
+    <converters1:DateTimeToShortDateStringConverter x:Key="DateTimeToShortDateStringConverter" />
+    <converters1:DateTimeToStringConverter x:Key="DateTimeToStringConverter" />
+	<convertersPack:TruncateStringConverter x:Key="TruncateStringConverter" />
+	<convertersPack:BoolToDisabledConverter x:Key="BoolToDisabledConverter" />
+	<convertersPack:WaitCursorConverter x:Key="WaitCursorConverter" />
+    <convertersPack:BoolToCollapsedVisibilityConverter x:Key="BoolToCollapsedVisibilityConverter" />
+    <convertersPack:BoolToHiddenVisibilityConverter x:Key="BoolToHiddenVisibilityConverter" />
+    <convertersPack:ObjectToCollapsedVisibilityConverter x:Key="ObjectToCollapsedVisibilityConverter" />
+    <convertersPack:SelectedItemToBoolConverter x:Key="SelectedItemToBoolConverter" />
+    <dx:ColorToBrushConverter x:Key="ColorToBrushConverter" />
+    <converters1:NameToVisibilityConverter x:Key="NameToVisibilityConverter" />
+    <converters1:ZeroToBoolConverter x:Key="ZeroToBoolConverter" />
+    <helpers:DebugConverter x:Key="DebugConverter" />
+    <convertersPack:BooleanAndConverter x:Key="booleanAndConverter" />
+    <convertersPack:BitmapToImageConverter x:Key="BitmapToImageConverter"></convertersPack:BitmapToImageConverter>
+</ResourceDictionary>

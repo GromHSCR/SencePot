@@ -1,0 +1,50 @@
+﻿<UserControl
+	x:Class="Styx.GromHSCR.Controls.WaitIcon" 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:controls="clr-namespace:Styx.GromHSCR.Controls"
+	mc:Ignorable="d"
+	d:DesignHeight="100" d:DesignWidth="100">
+
+    <UserControl.Resources>
+        <Storyboard x:Key="OnLoadedWaitControl">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="path" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" RepeatBehavior="Forever">
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="720"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <controls:DoubleDiv2Converter x:Key="DoubleDiv2Converter" />
+    </UserControl.Resources>
+
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource OnLoadedWaitControl}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+
+    <Grid>
+        <Ellipse x:Name="path" Stretch="Fill" Margin="0" StrokeThickness="3">
+            <Ellipse.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2A5180" Offset="0"/>
+                    <GradientStop Color="#FF91EBE5" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Stroke>
+
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform
+						Angle="360"
+						CenterX="{Binding ActualWidth, ElementName=path, Converter={StaticResource DoubleDiv2Converter}}"
+						CenterY="{Binding ActualHeight, ElementName=path, Converter={StaticResource DoubleDiv2Converter}}"
+						/>
+
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+    </Grid>
+</UserControl>
