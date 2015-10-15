@@ -58,6 +58,7 @@
     <Compile Include="Interfaces\ILegalEntity.cs" />
     <Compile Include="Interfaces\IOrganization.cs" />
     <Compile Include="Interfaces\IPrintInfo.cs" />
+    <Compile Include="Interfaces\IValidationResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Interfaces\IRegion.cs" />
     <Compile Include="Interfaces\IStreet.cs" />

@@ -25,5 +25,13 @@
                                         ScreenTipText="Отменить обновление"
                                         Shortcut="Break" />-->
 			</visualActions1:VisualActionGroup>
-	</visualActions1:VisualActionGroupTab>
+
+        <visualActions1:VisualActionGroup Title="Действия">
+            <visualActions1:VisualAction Title="Загрузить"
+                                        CommandName="LoadPrintsCommand"
+                                        Icon="{x:Static properties1:Resources.Load_32}"
+                                        ScreenTipText="Загрузить распечатки"
+                                        Shortcut="Ctrl + O" />
+            </visualActions1:VisualActionGroup>
+    </visualActions1:VisualActionGroupTab>
 </visualActions1:VisualActionContainer>

@@ -3,45 +3,47 @@ using System.Collections.Generic;
 
 namespace Styx.GromHSCR.Api.Interfaces
 {
-	public interface IPrintInfo : IBaseItem
-	{
-		int Number { get; set; }
+    public interface IPrintInfo : IBaseItem
+    {
+        int Number { get; set; }
 
-		Guid AddressId { get; set; }
+        Guid AddressId { get; set; }
 
-		IAddress Address { get; set; }
+        IAddress Address { get; set; }
 
-		Guid HeatCounterId { get; set; }
+        Guid HeatCounterId { get; set; }
 
-		IHeatCounter HeatCounter { get; set; }
+        IHeatCounter HeatCounter { get; set; }
 
-		Guid? OrganizationId { get; set; }
+        Guid? OrganizationId { get; set; }
 
-		IOrganization Organization { get; set; }
+        IOrganization Organization { get; set; }
 
-		Guid? ContractId { get; set; }
+        Guid? ContractId { get; set; }
 
-		IContract Contract { get; set; }
+        IContract Contract { get; set; }
 
-		IEnumerable<IDailyData> DailyDatas { get; set; }
+        IEnumerable<IDailyData> DailyDatas { get; set; }
 
-		decimal? Gmax { get; set; }
+        IEnumerable<IValidationResult> ValidationResults { get; set; }
 
-		decimal? Gmin { get; set; }
+        decimal? Gmax { get; set; }
 
-		decimal? Glinear { get; set; }
+        decimal? Gmin { get; set; }
 
-		decimal? Greturn { get; set; }
+        decimal? Glinear { get; set; }
 
-		decimal? Kv { get; set; }
+        decimal? Greturn { get; set; }
 
-		decimal? Fmax { get; set; }
+        decimal? Kv { get; set; }
 
-		DateTime PrintStartDate { get; set; }
+        decimal? Fmax { get; set; }
 
-		DateTime PrintEndDate { get; set; }
+        DateTime PrintStartDate { get; set; }
 
+        DateTime PrintEndDate { get; set; }
 
+        DateTime LoadDateTime { get; set; }
 
-	}
+    }
 }

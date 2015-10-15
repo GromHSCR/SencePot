@@ -94,7 +94,9 @@ namespace Styx.ViewModel
 		public Guid? ContractId { get; set; }
 		public IContract Contract { get; set; }
 		public IEnumerable<IDailyData> DailyDatas { get; set; }
-		public decimal? Gmax
+	    public IEnumerable<IValidationResult> ValidationResults { get; set; }
+
+	    public decimal? Gmax
 		{
 			get
 			{
@@ -230,5 +232,23 @@ namespace Styx.ViewModel
 				IsModified = true;
 			}
 		}
+
+        public DateTime LoadDateTime
+        {
+            get
+            {
+                return Model.LoadDateTime;
+            }
+            set
+            {
+                if (Model.LoadDateTime == value) return;
+
+                RaisePropertyChanging("LoadDateTime");
+                Model.LoadDateTime = value;
+                RaisePropertyChanged("LoadDateTime");
+
+                IsModified = true;
+            }
+        }
 	}
 }

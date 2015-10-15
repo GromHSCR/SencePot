@@ -26,6 +26,18 @@ namespace Styx
 			return result;
 		}
 
+        public IEnumerable<IPrintInfo> Get500LatestPrintInfos()
+        {
+            List<IPrintInfo> result;
+
+            using (var rep = new Repository<PrintInfo>())
+            {
+                var list = rep.GetAll().OrderBy(p => p.LoadDateTime).Take(500).ToList();
+                result = Mapper.Map<List<PrintInfo>, List<IPrintInfo>>(list);
+            }
+            return result;
+        }
+
 		public IPrintInfo GetById(Guid id)
 		{
 			IPrintInfo result;

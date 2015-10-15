@@ -28,7 +28,8 @@ namespace Styx
 				.ForMember(dest => dest.CurrentWorkTime, opt => opt.MapFrom(p => p.CurrentWorkTime.HasValue ? (TimeSpan?)TimeSpan.FromHours(p.CurrentWorkTime.Value) : null));
 			Mapper.CreateMap<LegalEntity, ILegalEntity>();
 			Mapper.CreateMap<Organization, IOrganization>();
-			Mapper.CreateMap<Contract, IContract>();
+            Mapper.CreateMap<Contract, IContract>();
+            Mapper.CreateMap<ValidationResult, IValidationResult>();
 
 			//back
 			Mapper.CreateMap<IPrintInfo, PrintInfo>();
@@ -47,7 +48,8 @@ namespace Styx
 				.ForMember(dest => dest.CurrentWorkTime, opt => opt.MapFrom(p => p.CurrentWorkTime.HasValue ? (int?)p.CurrentWorkTime.Value.Hours : null));
 			Mapper.CreateMap<ILegalEntity, LegalEntity>();
 			Mapper.CreateMap<IOrganization, Organization>();
-			Mapper.CreateMap<IContract, Contract>();
+            Mapper.CreateMap<IContract, Contract>();
+            Mapper.CreateMap<IValidationResult, ValidationResult>();
 
 			Mapper.AssertConfigurationIsValid();
 		}

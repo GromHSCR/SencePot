@@ -6,5 +6,7 @@ namespace Styx
     public interface IPrintInfoDataService
     {
         IEnumerable<IPrintInfo> GetAllPrintInfos();
+
+        IEnumerable<IPrintInfo> Get500LatestPrintInfos();
     }
 }

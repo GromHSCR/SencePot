@@ -109,6 +109,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Reflection.Context" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xaml">
@@ -303,10 +304,6 @@
     <ProjectReference Include="..\Styx.GromHSCR.DocumentBase\Styx.GromHSCR.DocumentBase.csproj">
       <Project>{e9349287-2cb4-4f47-9cb3-fd1538694c30}</Project>
       <Name>Styx.GromHSCR.DocumentBase</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Styx.GromHSCR.DocumentParser\Styx.GromHSCR.DocumentParser.csproj">
-      <Project>{3615d935-3cb8-4f99-802b-4757a3dcf596}</Project>
-      <Name>Styx.GromHSCR.DocumentParser</Name>
     </ProjectReference>
     <ProjectReference Include="..\Styx.GromHSCR.Entities\Styx.GromHSCR.Entities.csproj">
       <Project>{475974e9-3178-4c8a-99e8-099775160eb3}</Project>

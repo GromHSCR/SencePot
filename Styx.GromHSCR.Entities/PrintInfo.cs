@@ -25,7 +25,9 @@ namespace Styx.GromHSCR.Entities
 
 		public virtual Contract Contract { get; set; }
 
-		public virtual IEnumerable<DailyData> DailyDatas { get; set; }
+        public virtual IEnumerable<DailyData> DailyDatas { get; set; }
+
+        public virtual IEnumerable<ValidationResult> ValidationResults { get; set; }
 
 		public decimal? Gmax { get; set; }
 
@@ -43,7 +45,7 @@ namespace Styx.GromHSCR.Entities
 
 		public DateTime PrintEndDate { get; set; }
 
-
+        public DateTime LoadDateTime { get; set; }
 
 	}
 }

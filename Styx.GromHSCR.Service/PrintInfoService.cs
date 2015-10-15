@@ -15,5 +15,10 @@ namespace Styx
 		{
 			return PrintInfoDataService.GetAllPrintInfos();
 		}
+
+	    public IEnumerable<IPrintInfo> Get500LatestPrintInfos()
+        {
+            return PrintInfoDataService.Get500LatestPrintInfos();
+	    }
 	}
 }

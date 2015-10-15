@@ -41,6 +41,12 @@
     <Compile Include="DocumentParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Styx.GromHSCR.Api\Styx.GromHSCR.Api.csproj">
+      <Project>{DF769A92-BEE5-451D-9782-572460E8D650}</Project>
+      <Name>Styx.GromHSCR.Api</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
