@@ -31,6 +31,8 @@ namespace Styx.GromHSCR.Entities
 
         public virtual Building Building { get; set; }
 
-        public virtual Housing Housing { get; set; }
+		public virtual Housing Housing { get; set; }
+
+		public virtual HousePrefix HousePrefix { get; set; }
     }
 }

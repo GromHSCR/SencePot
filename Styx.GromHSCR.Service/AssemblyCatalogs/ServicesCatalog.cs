@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.Reflection;
-using Styx.GromHSCR.DataService.AssemblyCatalogs;
 
-namespace Styx.GromHSCR.Service.AssemblyCatalogs
+namespace Styx.AssemblyCatalogs
 {
 	public class ServicesCatalog : AssemblyCatalog
 	{

@@ -9,11 +9,9 @@ namespace Styx.GromHSCR.Entities
 	{
 		public string Name { get; set; }
 
-		public Guid LegalEntityId { get; set; }
+		public virtual List<LegalEntity> LegalEntities { get; set; }
 
-		public virtual LegalEntity LegalEntity { get; set; }
-
-		public virtual IEnumerable<Contract> Contracts { get; set; } 
+		public virtual List<Contract> Contracts { get; set; } 
 
 	}
 }

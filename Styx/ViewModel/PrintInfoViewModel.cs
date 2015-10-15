@@ -53,23 +53,9 @@ namespace Styx.ViewModel
 				IsModified = true;
 			}
 		}
-		public Guid AddressId
-		{
-			get
-			{
-				return Model.AddressId;
-			}
-			set
-			{
-				if (Model.AddressId == value) return;
 
-				RaisePropertyChanging("AddressId");
-				Model.AddressId = value;
-				RaisePropertyChanged("AddressId");
+		public Guid AddressId { get; set; }
 
-				IsModified = true;
-			}
-		}
 		public IAddress Address
 		{
 			get
@@ -88,8 +74,10 @@ namespace Styx.ViewModel
 			}
 		}
 
+		public Guid HeatCounterId { get; set; }
 
-		private string FullAddress
+
+		public string FullAddress
 		{
 			get
 			{
@@ -100,11 +88,10 @@ namespace Styx.ViewModel
 			}
 		}
 
-		public Guid HeatCounterId { get; set; }
 		public IHeatCounter HeatCounter { get; set; }
-		public Guid OrganizationId { get; set; }
+		public Guid? OrganizationId { get; set; }
 		public IOrganization Organization { get; set; }
-		public Guid ContractId { get; set; }
+		public Guid? ContractId { get; set; }
 		public IContract Contract { get; set; }
 		public IEnumerable<IDailyData> DailyDatas { get; set; }
 		public decimal? Gmax

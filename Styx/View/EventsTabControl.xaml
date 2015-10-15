@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="RedKassa.Promoter.View.EventsTabControl"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:ignore="http://www.ignore.com"
+		mc:Ignorable="d ignore"
+		d:DesignHeight="400"
+		d:DesignWidth="600"
+		xmlns:dx="clr-namespace:DevExpress.Xpf.Core;assembly=DevExpress.Xpf.Core.v14.1">
+	<Grid x:Name="LayoutRoot">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+
+		<dx:DXTabControl Grid.Row="0" x:Name="TabControl" ItemsSource="{Binding Path=Tabs}" SelectedItem="{Binding SelectedTab, Mode=TwoWay}">
+			<dx:DXTabControl.View>
+				<dx:TabControlScrollView AllowHideTabItems="True" />
+			</dx:DXTabControl.View>
+			<dx:DXTabControl.ItemHeaderTemplate>
+				<DataTemplate>
+					<StackPanel Orientation="Horizontal">
+						<Image Source="pack://application:,,,/DevExpress.Images.v14.1;component/Images/Actions/AddFile_16x16.png" Width="10" Height="10" />
+						<TextBlock Text="{Binding Path=Name}" />
+						<TextBlock Text="*" Visibility="{Binding Path=Event.IsModified, Converter={StaticResource BoolToVisibilityConverter}, FallbackValue=Hidden}" />
+					</StackPanel>
+				</DataTemplate>
+			</dx:DXTabControl.ItemHeaderTemplate>
+			<dx:DXTabControl.ItemTemplate>
+				<DataTemplate>
+					<ContentControl Content="{Binding Path=.}" HorizontalAlignment="Left" />
+				</DataTemplate>
+			</dx:DXTabControl.ItemTemplate>
+		</dx:DXTabControl>
+	</Grid>
+</UserControl>

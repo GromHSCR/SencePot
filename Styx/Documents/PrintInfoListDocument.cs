@@ -13,8 +13,8 @@ namespace Styx.Documents
 {
     public class PrintInfoListDocument : CollectionDocument<PrintInfoViewModel>
     {
-        [Import]
-        private IPrintService _printService;
+        [Import(typeof(IPrintInfoService))]
+        private IPrintInfoService _printInfoService;
 
         public ICommand EditCommand { get; set; }
         public ICommand ShowCommand { get; set; }
@@ -23,22 +23,19 @@ namespace Styx.Documents
 
         protected override void SaveChanges(Action callback)
         {
-            throw new NotImplementedException();
         }
 
         protected override void ChangeItems(IEnumerable<PrintInfoViewModel> itemsForChange)
         {
-            throw new NotImplementedException();
         }
 
         protected override void AddExecute()
         {
-            throw new NotImplementedException();
         }
 
         protected override void Refresh(Action<IEnumerable<PrintInfoViewModel>> onResult)
         {
-            ExecuteOperationAsync(() => _printService.GetAllPrintInfos(), result => onResult(result.Select(p => new PrintInfoViewModel(p))));
+            ExecuteOperationAsync(() => _printInfoService.GetAllPrintInfos(), result => onResult(result.Select(p => new PrintInfoViewModel(p))));
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,13 +13,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Styx.GromHSCR.ActionBase.VisualActions;
 
 namespace Styx.Actions
 {
     /// <summary>
     /// Логика взаимодействия для MainActions.xaml
-    /// </summary>
-    public partial class MainActions : UserControl
+	/// </summary>
+	[Export(typeof(IVisualActionProvider))]
+    public partial class MainActions
     {
         public MainActions()
         {

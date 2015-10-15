@@ -7,8 +7,8 @@
     <ProjectGuid>{D720DF75-FC08-4729-A03B-C2C7BDF44255}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Styx.GromHSCR.CompostionBase</RootNamespace>
-    <AssemblyName>Styx.GromHSCR.CompostionBase</AssemblyName>
+    <RootNamespace>Styx.GromHSCR.CompositionBase</RootNamespace>
+    <AssemblyName>Styx.GromHSCR.CompositionBase</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -30,6 +30,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'debugger|AnyCPU'">
+    <OutputPath>bin\debugger\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

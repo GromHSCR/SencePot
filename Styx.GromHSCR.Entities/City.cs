@@ -7,6 +7,6 @@ namespace Styx.GromHSCR.Entities
     {
         public string Name { get; set; }
 
-        public virtual IEnumerable<Region> Regions { get; set; }
+        public virtual List<Region> Regions { get; set; }
     }
 }

@@ -22,7 +22,7 @@ namespace Styx.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Styx.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Styx.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Styx.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Activate_32 {
+        public static System.Drawing.Bitmap Activate_32 {
             get {
                 object obj = ResourceManager.GetObject("Activate_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Add_32 {
+        public static System.Drawing.Bitmap Add_32 {
             get {
                 object obj = ResourceManager.GetObject("Add_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Admin_16 {
+        public static System.Drawing.Bitmap Admin_16 {
             get {
                 object obj = ResourceManager.GetObject("Admin_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Admin_32 {
+        public static System.Drawing.Bitmap Admin_32 {
             get {
                 object obj = ResourceManager.GetObject("Admin_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Агент.
         /// </summary>
-        internal static string Agent {
+        public static string Agent {
             get {
                 return ResourceManager.GetString("Agent", resourceCulture);
             }
@@ -112,7 +112,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to От кого:.
         /// </summary>
-        internal static string AgentPosition {
+        public static string AgentPosition {
             get {
                 return ResourceManager.GetString("AgentPosition", resourceCulture);
             }
@@ -121,7 +121,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Agents_32 {
+        public static System.Drawing.Bitmap Agents_32 {
             get {
                 object obj = ResourceManager.GetObject("Agents_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -131,7 +131,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AgentsOperations_16 {
+        public static System.Drawing.Bitmap AgentsOperations_16 {
             get {
                 object obj = ResourceManager.GetObject("AgentsOperations_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -141,7 +141,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AgentsOperations_32 {
+        public static System.Drawing.Bitmap AgentsOperations_32 {
             get {
                 object obj = ResourceManager.GetObject("AgentsOperations_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -151,7 +151,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to По агентам.
         /// </summary>
-        internal static string AgentsQuota {
+        public static string AgentsQuota {
             get {
                 return ResourceManager.GetString("AgentsQuota", resourceCulture);
             }
@@ -160,7 +160,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Возрастное ограничение.
         /// </summary>
-        internal static string AgeRestriction {
+        public static string AgeRestriction {
             get {
                 return ResourceManager.GetString("AgeRestriction", resourceCulture);
             }
@@ -169,7 +169,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to В других документах работающих с ценами есть не сохраненные данные. Сохраните их или обновите документы..
         /// </summary>
-        internal static string AnotherPriceEditDocumentIsEditedSaveOrRefresh {
+        public static string AnotherPriceEditDocumentIsEditedSaveOrRefresh {
             get {
                 return ResourceManager.GetString("AnotherPriceEditDocumentIsEditedSaveOrRefresh", resourceCulture);
             }
@@ -178,7 +178,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap apply_template {
+        public static System.Drawing.Bitmap apply_template {
             get {
                 object obj = ResourceManager.GetObject("apply_template", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -188,7 +188,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Предупреждение.
         /// </summary>
-        internal static string Attention {
+        public static string Attention {
             get {
                 return ResourceManager.GetString("Attention", resourceCulture);
             }
@@ -197,7 +197,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Cancel_32 {
+        public static System.Drawing.Bitmap Cancel_32 {
             get {
                 object obj = ResourceManager.GetObject("Cancel_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -207,7 +207,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Change_32 {
+        public static System.Drawing.Bitmap Change_32 {
             get {
                 object obj = ResourceManager.GetObject("Change_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -217,7 +217,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Check_16 {
+        public static System.Drawing.Bitmap Check_16 {
             get {
                 object obj = ResourceManager.GetObject("Check_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -227,7 +227,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Check_32 {
+        public static System.Drawing.Bitmap Check_32 {
             get {
                 object obj = ResourceManager.GetObject("Check_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -237,7 +237,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Check_All_32 {
+        public static System.Drawing.Bitmap Check_All_32 {
             get {
                 object obj = ResourceManager.GetObject("Check_All_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -247,7 +247,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Код.
         /// </summary>
-        internal static string Code {
+        public static string Code {
             get {
                 return ResourceManager.GetString("Code", resourceCulture);
             }
@@ -256,7 +256,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Comment_16 {
+        public static System.Drawing.Bitmap Comment_16 {
             get {
                 object obj = ResourceManager.GetObject("Comment_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -266,7 +266,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Comment_32 {
+        public static System.Drawing.Bitmap Comment_32 {
             get {
                 object obj = ResourceManager.GetObject("Comment_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -276,7 +276,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Console_16 {
+        public static System.Drawing.Bitmap Console_16 {
             get {
                 object obj = ResourceManager.GetObject("Console_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -286,7 +286,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Console_32 {
+        public static System.Drawing.Bitmap Console_32 {
             get {
                 object obj = ResourceManager.GetObject("Console_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -296,7 +296,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Количество:.
         /// </summary>
-        internal static string CountPosition {
+        public static string CountPosition {
             get {
                 return ResourceManager.GetString("CountPosition", resourceCulture);
             }
@@ -305,7 +305,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Дата:.
         /// </summary>
-        internal static string DatePosition {
+        public static string DatePosition {
             get {
                 return ResourceManager.GetString("DatePosition", resourceCulture);
             }
@@ -314,7 +314,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Deactivate_32 {
+        public static System.Drawing.Bitmap Deactivate_32 {
             get {
                 object obj = ResourceManager.GetObject("Deactivate_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -324,7 +324,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Delete_32 {
+        public static System.Drawing.Bitmap Delete_32 {
             get {
                 object obj = ResourceManager.GetObject("Delete_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -334,7 +334,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Удаление мероприятия.
         /// </summary>
-        internal static string DeleteEvent {
+        public static string DeleteEvent {
             get {
                 return ResourceManager.GetString("DeleteEvent", resourceCulture);
             }
@@ -343,7 +343,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Удалить текущее мероприятие?.
         /// </summary>
-        internal static string DeleteEventConfirmation {
+        public static string DeleteEventConfirmation {
             get {
                 return ResourceManager.GetString("DeleteEventConfirmation", resourceCulture);
             }
@@ -352,7 +352,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Distribute_Table_32 {
+        public static System.Drawing.Bitmap Distribute_Table_32 {
             get {
                 object obj = ResourceManager.GetObject("Distribute_Table_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -362,7 +362,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Distribution_16 {
+        public static System.Drawing.Bitmap Distribution_16 {
             get {
                 object obj = ResourceManager.GetObject("Distribution_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -372,7 +372,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Distribution_32 {
+        public static System.Drawing.Bitmap Distribution_32 {
             get {
                 object obj = ResourceManager.GetObject("Distribution_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -382,7 +382,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Down_16 {
+        public static System.Drawing.Bitmap Down_16 {
             get {
                 object obj = ResourceManager.GetObject("Down_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -392,7 +392,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Edit_32 {
+        public static System.Drawing.Bitmap Edit_32 {
             get {
                 object obj = ResourceManager.GetObject("Edit_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -402,7 +402,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Поле не должно быть пустым.
         /// </summary>
-        internal static string EmptyFieldValidationRule {
+        public static string EmptyFieldValidationRule {
             get {
                 return ResourceManager.GetString("EmptyFieldValidationRule", resourceCulture);
             }
@@ -411,7 +411,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Дата окончания мероприятия.
         /// </summary>
-        internal static string EndDate {
+        public static string EndDate {
             get {
                 return ResourceManager.GetString("EndDate", resourceCulture);
             }
@@ -420,7 +420,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Маркер &quot;Итого&quot;.
         /// </summary>
-        internal static string EndTableMarker {
+        public static string EndTableMarker {
             get {
                 return ResourceManager.GetString("EndTableMarker", resourceCulture);
             }
@@ -429,7 +429,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Колонка маркера.
         /// </summary>
-        internal static string EndTableMarkerColumn {
+        public static string EndTableMarkerColumn {
             get {
                 return ResourceManager.GetString("EndTableMarkerColumn", resourceCulture);
             }
@@ -438,7 +438,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Ошибка.
         /// </summary>
-        internal static string Error {
+        public static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
             }
@@ -447,7 +447,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Event_16 {
+        public static System.Drawing.Bitmap Event_16 {
             get {
                 object obj = ResourceManager.GetObject("Event_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -457,7 +457,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Event_32 {
+        public static System.Drawing.Bitmap Event_32 {
             get {
                 object obj = ResourceManager.GetObject("Event_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -467,7 +467,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Введите код.
         /// </summary>
-        internal static string EventCode {
+        public static string EventCode {
             get {
                 return ResourceManager.GetString("EventCode", resourceCulture);
             }
@@ -476,7 +476,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Укажите время окончания.
         /// </summary>
-        internal static string EventEndDate {
+        public static string EventEndDate {
             get {
                 return ResourceManager.GetString("EventEndDate", resourceCulture);
             }
@@ -485,7 +485,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Укажите юр. лицо.
         /// </summary>
-        internal static string EventLegalEntity {
+        public static string EventLegalEntity {
             get {
                 return ResourceManager.GetString("EventLegalEntity", resourceCulture);
             }
@@ -494,7 +494,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Введите название мероприятия.
         /// </summary>
-        internal static string EventName {
+        public static string EventName {
             get {
                 return ResourceManager.GetString("EventName", resourceCulture);
             }
@@ -503,7 +503,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Мероприятие:.
         /// </summary>
-        internal static string EventPosition {
+        public static string EventPosition {
             get {
                 return ResourceManager.GetString("EventPosition", resourceCulture);
             }
@@ -512,7 +512,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Events_16 {
+        public static System.Drawing.Bitmap Events_16 {
             get {
                 object obj = ResourceManager.GetObject("Events_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -522,7 +522,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Events_32 {
+        public static System.Drawing.Bitmap Events_32 {
             get {
                 object obj = ResourceManager.GetObject("Events_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -532,7 +532,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Укажите время начала.
         /// </summary>
-        internal static string EventStartDate {
+        public static string EventStartDate {
             get {
                 return ResourceManager.GetString("EventStartDate", resourceCulture);
             }
@@ -541,7 +541,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExportToExcel_32 {
+        public static System.Drawing.Bitmap ExportToExcel_32 {
             get {
                 object obj = ResourceManager.GetObject("ExportToExcel_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -551,7 +551,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExportToPdf_32 {
+        public static System.Drawing.Bitmap ExportToPdf_32 {
             get {
                 object obj = ResourceManager.GetObject("ExportToPdf_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -561,7 +561,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExportToRtf_32 {
+        public static System.Drawing.Bitmap ExportToRtf_32 {
             get {
                 object obj = ResourceManager.GetObject("ExportToRtf_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -571,7 +571,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExportToTxt_32 {
+        public static System.Drawing.Bitmap ExportToTxt_32 {
             get {
                 object obj = ResourceManager.GetObject("ExportToTxt_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -581,7 +581,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExportToWord_32 {
+        public static System.Drawing.Bitmap ExportToWord_32 {
             get {
                 object obj = ResourceManager.GetObject("ExportToWord_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -591,7 +591,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Файл сконвертирован некорректно.
         /// </summary>
-        internal static string File_Load_exception {
+        public static string File_Load_exception {
             get {
                 return ResourceManager.GetString("File_Load_exception", resourceCulture);
             }
@@ -600,7 +600,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Файл не распознан или в нём нет данных..
         /// </summary>
-        internal static string File_undefined {
+        public static string File_undefined {
             get {
                 return ResourceManager.GetString("File_undefined", resourceCulture);
             }
@@ -609,7 +609,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Файл не распознан или в нём нет данных:.
         /// </summary>
-        internal static string File_Undefined_Or_No_Data {
+        public static string File_Undefined_Or_No_Data {
             get {
                 return ResourceManager.GetString("File_Undefined_Or_No_Data", resourceCulture);
             }
@@ -618,7 +618,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Родительный падеж.
         /// </summary>
-        internal static string Genitive {
+        public static string Genitive {
             get {
                 return ResourceManager.GetString("Genitive", resourceCulture);
             }
@@ -627,7 +627,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Give_32 {
+        public static System.Drawing.Bitmap Give_32 {
             get {
                 object obj = ResourceManager.GetObject("Give_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -637,7 +637,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Group_Left_16 {
+        public static System.Drawing.Bitmap Group_Left_16 {
             get {
                 object obj = ResourceManager.GetObject("Group_Left_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -647,7 +647,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Group_Left_24 {
+        public static System.Drawing.Bitmap Group_Left_24 {
             get {
                 object obj = ResourceManager.GetObject("Group_Left_24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -657,7 +657,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Group_Right_16 {
+        public static System.Drawing.Bitmap Group_Right_16 {
             get {
                 object obj = ResourceManager.GetObject("Group_Right_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -667,7 +667,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Group_Right_24 {
+        public static System.Drawing.Bitmap Group_Right_24 {
             get {
                 object obj = ResourceManager.GetObject("Group_Right_24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -677,7 +677,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Зал.
         /// </summary>
-        internal static string Hall {
+        public static string Hall {
             get {
                 return ResourceManager.GetString("Hall", resourceCulture);
             }
@@ -686,7 +686,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Hall_32 {
+        public static System.Drawing.Bitmap Hall_32 {
             get {
                 object obj = ResourceManager.GetObject("Hall_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -696,7 +696,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ID.
         /// </summary>
-        internal static string Id {
+        public static string Id {
             get {
                 return ResourceManager.GetString("Id", resourceCulture);
             }
@@ -705,7 +705,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Индивидуальный предприниматель.
         /// </summary>
-        internal static string IndividualEntrepreneur {
+        public static string IndividualEntrepreneur {
             get {
                 return ResourceManager.GetString("IndividualEntrepreneur", resourceCulture);
             }
@@ -714,7 +714,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ИНН.
         /// </summary>
-        internal static string INN {
+        public static string INN {
             get {
                 return ResourceManager.GetString("INN", resourceCulture);
             }
@@ -723,7 +723,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Только непроверенные.
         /// </summary>
-        internal static string IsNotOnlyUnchecked {
+        public static string IsNotOnlyUnchecked {
             get {
                 return ResourceManager.GetString("IsNotOnlyUnchecked", resourceCulture);
             }
@@ -732,7 +732,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Только для выбранного агента.
         /// </summary>
-        internal static string IsOnlySelectedAgent {
+        public static string IsOnlySelectedAgent {
             get {
                 return ResourceManager.GetString("IsOnlySelectedAgent", resourceCulture);
             }
@@ -741,7 +741,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IssueVoucher_16 {
+        public static System.Drawing.Bitmap IssueVoucher_16 {
             get {
                 object obj = ResourceManager.GetObject("IssueVoucher_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -751,7 +751,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IssueVoucher_32 {
+        public static System.Drawing.Bitmap IssueVoucher_32 {
             get {
                 object obj = ResourceManager.GetObject("IssueVoucher_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -761,7 +761,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to КПП.
         /// </summary>
-        internal static string KPP {
+        public static string KPP {
             get {
                 return ResourceManager.GetString("KPP", resourceCulture);
             }
@@ -770,7 +770,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Legal_entity_32 {
+        public static System.Drawing.Bitmap Legal_entity_32 {
             get {
                 object obj = ResourceManager.GetObject("Legal_entity_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -780,7 +780,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Юр. лицо.
         /// </summary>
-        internal static string LegalEntity {
+        public static string LegalEntity {
             get {
                 return ResourceManager.GetString("LegalEntity", resourceCulture);
             }
@@ -789,7 +789,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap List_Items_16 {
+        public static System.Drawing.Bitmap List_Items_16 {
             get {
                 object obj = ResourceManager.GetObject("List_Items_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -799,7 +799,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap List_Items_32 {
+        public static System.Drawing.Bitmap List_Items_32 {
             get {
                 object obj = ResourceManager.GetObject("List_Items_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -809,7 +809,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Load_16 {
+        public static System.Drawing.Bitmap Load_16 {
             get {
                 object obj = ResourceManager.GetObject("Load_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -819,7 +819,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Load_32 {
+        public static System.Drawing.Bitmap Load_32 {
             get {
                 object obj = ResourceManager.GetObject("Load_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -829,7 +829,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Load_Distribute_Voucher_32 {
+        public static System.Drawing.Bitmap Load_Distribute_Voucher_32 {
             get {
                 object obj = ResourceManager.GetObject("Load_Distribute_Voucher_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -839,7 +839,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Load_Return_Voucher_32 {
+        public static System.Drawing.Bitmap Load_Return_Voucher_32 {
             get {
                 object obj = ResourceManager.GetObject("Load_Return_Voucher_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -849,7 +849,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Загрузка документа....
         /// </summary>
-        internal static string LoadingDocument {
+        public static string LoadingDocument {
             get {
                 return ResourceManager.GetString("LoadingDocument", resourceCulture);
             }
@@ -858,7 +858,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Введён не правильный пароль.
         /// </summary>
-        internal static string MainDocument_AdminRoomExecute_Введён_не_правильный_пароль {
+        public static string MainDocument_AdminRoomExecute_Введён_не_правильный_пароль {
             get {
                 return ResourceManager.GetString("MainDocument_AdminRoomExecute_Введён_не_правильный_пароль", resourceCulture);
             }
@@ -867,7 +867,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Ответственный менеджер.
         /// </summary>
-        internal static string Manager {
+        public static string Manager {
             get {
                 return ResourceManager.GetString("Manager", resourceCulture);
             }
@@ -876,7 +876,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Managers {
+        public static System.Drawing.Bitmap Managers {
             get {
                 object obj = ResourceManager.GetObject("Managers", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -886,7 +886,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Название.
         /// </summary>
-        internal static string Name {
+        public static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
             }
@@ -895,7 +895,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Именительный падеж.
         /// </summary>
-        internal static string Nominative {
+        public static string Nominative {
             get {
                 return ResourceManager.GetString("Nominative", resourceCulture);
             }
@@ -904,7 +904,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ОГРН.
         /// </summary>
-        internal static string OGRN {
+        public static string OGRN {
             get {
                 return ResourceManager.GetString("OGRN", resourceCulture);
             }
@@ -913,7 +913,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ОГРНИП.
         /// </summary>
-        internal static string OGRNIP {
+        public static string OGRNIP {
             get {
                 return ResourceManager.GetString("OGRNIP", resourceCulture);
             }
@@ -922,7 +922,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Действует на основании.
         /// </summary>
-        internal static string OnBasis {
+        public static string OnBasis {
             get {
                 return ResourceManager.GetString("OnBasis", resourceCulture);
             }
@@ -931,7 +931,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to (%)процент.
         /// </summary>
-        internal static string Percent {
+        public static string Percent {
             get {
                 return ResourceManager.GetString("Percent", resourceCulture);
             }
@@ -940,7 +940,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Место проведения.
         /// </summary>
-        internal static string Place {
+        public static string Place {
             get {
                 return ResourceManager.GetString("Place", resourceCulture);
             }
@@ -949,7 +949,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Place_32 {
+        public static System.Drawing.Bitmap Place_32 {
             get {
                 object obj = ResourceManager.GetObject("Place_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -959,7 +959,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Группа мест проведения.
         /// </summary>
-        internal static string PlaceGroup {
+        public static string PlaceGroup {
             get {
                 return ResourceManager.GetString("PlaceGroup", resourceCulture);
             }
@@ -968,7 +968,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PlaceGroup_32 {
+        public static System.Drawing.Bitmap PlaceGroup_32 {
             get {
                 object obj = ResourceManager.GetObject("PlaceGroup_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -978,7 +978,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Место проведения:.
         /// </summary>
-        internal static string PlacePosition {
+        public static string PlacePosition {
             get {
                 return ResourceManager.GetString("PlacePosition", resourceCulture);
             }
@@ -987,7 +987,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Положение в таблице.
         /// </summary>
-        internal static string PositionInTable {
+        public static string PositionInTable {
             get {
                 return ResourceManager.GetString("PositionInTable", resourceCulture);
             }
@@ -996,7 +996,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Price_16 {
+        public static System.Drawing.Bitmap Price_16 {
             get {
                 object obj = ResourceManager.GetObject("Price_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1006,7 +1006,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Price_32 {
+        public static System.Drawing.Bitmap Price_32 {
             get {
                 object obj = ResourceManager.GetObject("Price_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1016,7 +1016,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Цена:.
         /// </summary>
-        internal static string PricePosition {
+        public static string PricePosition {
             get {
                 return ResourceManager.GetString("PricePosition", resourceCulture);
             }
@@ -1025,7 +1025,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PriceSchema_16 {
+        public static System.Drawing.Bitmap PriceSchema_16 {
             get {
                 object obj = ResourceManager.GetObject("PriceSchema_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1035,7 +1035,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PriceSchema_32 {
+        public static System.Drawing.Bitmap PriceSchema_32 {
             get {
                 object obj = ResourceManager.GetObject("PriceSchema_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1045,7 +1045,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Print_32 {
+        public static System.Drawing.Bitmap Print_32 {
             get {
                 object obj = ResourceManager.GetObject("Print_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1055,7 +1055,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Организатор.
         /// </summary>
-        internal static string Promoter {
+        public static string Promoter {
             get {
                 return ResourceManager.GetString("Promoter", resourceCulture);
             }
@@ -1064,7 +1064,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Увеличить.
         /// </summary>
-        internal static string Raise {
+        public static string Raise {
             get {
                 return ResourceManager.GetString("Raise", resourceCulture);
             }
@@ -1073,7 +1073,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Re_Group_32 {
+        public static System.Drawing.Bitmap Re_Group_32 {
             get {
                 object obj = ResourceManager.GetObject("Re_Group_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1083,7 +1083,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Redo_32 {
+        public static System.Drawing.Bitmap Redo_32 {
             get {
                 object obj = ResourceManager.GetObject("Redo_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1093,7 +1093,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Повтор....
         /// </summary>
-        internal static string RedoProgress {
+        public static string RedoProgress {
             get {
                 return ResourceManager.GetString("RedoProgress", resourceCulture);
             }
@@ -1102,7 +1102,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Уменьшить.
         /// </summary>
-        internal static string Reduce {
+        public static string Reduce {
             get {
                 return ResourceManager.GetString("Reduce", resourceCulture);
             }
@@ -1111,7 +1111,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Refresh_32 {
+        public static System.Drawing.Bitmap Refresh_32 {
             get {
                 object obj = ResourceManager.GetObject("Refresh_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1121,7 +1121,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Remove_From_Table_32 {
+        public static System.Drawing.Bitmap Remove_From_Table_32 {
             get {
                 object obj = ResourceManager.GetObject("Remove_From_Table_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1131,7 +1131,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to В других документах работающих с ценами есть не сохраненные данные. Продолжить?.
         /// </summary>
-        internal static string RePriceSeatsDocument_ShowNotification {
+        public static string RePriceSeatsDocument_ShowNotification {
             get {
                 return ResourceManager.GetString("RePriceSeatsDocument_ShowNotification", resourceCulture);
             }
@@ -1140,7 +1140,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to единиц.
         /// </summary>
-        internal static string RePriceViewModel_currency {
+        public static string RePriceViewModel_currency {
             get {
                 return ResourceManager.GetString("RePriceViewModel_currency", resourceCulture);
             }
@@ -1149,7 +1149,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Return_32 {
+        public static System.Drawing.Bitmap Return_32 {
             get {
                 object obj = ResourceManager.GetObject("Return_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1159,7 +1159,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Return_All_32 {
+        public static System.Drawing.Bitmap Return_All_32 {
             get {
                 object obj = ResourceManager.GetObject("Return_All_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1169,7 +1169,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ReturnVoucher_16 {
+        public static System.Drawing.Bitmap ReturnVoucher_16 {
             get {
                 object obj = ResourceManager.GetObject("ReturnVoucher_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1179,7 +1179,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ReturnVoucher_32 {
+        public static System.Drawing.Bitmap ReturnVoucher_32 {
             get {
                 object obj = ResourceManager.GetObject("ReturnVoucher_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1189,7 +1189,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Места из накладной не найдены на схеме.
         /// </summary>
-        internal static string ReturnVoucherLoadDocument_LoadSeatsFromReturnEvent_Места_из_накладной_не_найдены_на_схеме {
+        public static string ReturnVoucherLoadDocument_LoadSeatsFromReturnEvent_Места_из_накладной_не_найдены_на_схеме {
             get {
                 return ResourceManager.GetString("ReturnVoucherLoadDocument_LoadSeatsFromReturnEvent_Места_из_накладной_не_найдены_" +
                         "на_схеме", resourceCulture);
@@ -1199,7 +1199,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Ряд:.
         /// </summary>
-        internal static string RowPosition {
+        public static string RowPosition {
             get {
                 return ResourceManager.GetString("RowPosition", resourceCulture);
             }
@@ -1208,7 +1208,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Save_32 {
+        public static System.Drawing.Bitmap Save_32 {
             get {
                 object obj = ResourceManager.GetObject("Save_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1218,7 +1218,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Save_And_Accept_32 {
+        public static System.Drawing.Bitmap Save_And_Accept_32 {
             get {
                 object obj = ResourceManager.GetObject("Save_And_Accept_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1228,7 +1228,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Сохранение мероприятия.
         /// </summary>
-        internal static string SaveEvent {
+        public static string SaveEvent {
             get {
                 return ResourceManager.GetString("SaveEvent", resourceCulture);
             }
@@ -1237,7 +1237,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Сохранить изменения?.
         /// </summary>
-        internal static string SaveEventConfirmation {
+        public static string SaveEventConfirmation {
             get {
                 return ResourceManager.GetString("SaveEventConfirmation", resourceCulture);
             }
@@ -1246,7 +1246,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Схема.
         /// </summary>
-        internal static string Scheme {
+        public static string Scheme {
             get {
                 return ResourceManager.GetString("Scheme", resourceCulture);
             }
@@ -1255,7 +1255,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Схемы не существует.
         /// </summary>
-        internal static string Scheme_does_not_exist {
+        public static string Scheme_does_not_exist {
             get {
                 return ResourceManager.GetString("Scheme_does_not_exist", resourceCulture);
             }
@@ -1264,7 +1264,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Кол-во мест.
         /// </summary>
-        internal static string SeatCount {
+        public static string SeatCount {
             get {
                 return ResourceManager.GetString("SeatCount", resourceCulture);
             }
@@ -1273,7 +1273,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Места с:.
         /// </summary>
-        internal static string SeatFromPosition {
+        public static string SeatFromPosition {
             get {
                 return ResourceManager.GetString("SeatFromPosition", resourceCulture);
             }
@@ -1282,7 +1282,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Тип мест:.
         /// </summary>
-        internal static string SeatGroupPosition {
+        public static string SeatGroupPosition {
             get {
                 return ResourceManager.GetString("SeatGroupPosition", resourceCulture);
             }
@@ -1291,7 +1291,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Места не найдены.
         /// </summary>
-        internal static string Seats_not_found {
+        public static string Seats_not_found {
             get {
                 return ResourceManager.GetString("Seats_not_found", resourceCulture);
             }
@@ -1300,7 +1300,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Места из накладной не найдены на схеме.
         /// </summary>
-        internal static string Seats_not_found_on_scheme {
+        public static string Seats_not_found_on_scheme {
             get {
                 return ResourceManager.GetString("Seats_not_found_on_scheme", resourceCulture);
             }
@@ -1309,7 +1309,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Места по:.
         /// </summary>
-        internal static string SeatToPosition {
+        public static string SeatToPosition {
             get {
                 return ResourceManager.GetString("SeatToPosition", resourceCulture);
             }
@@ -1318,7 +1318,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Сектор:.
         /// </summary>
-        internal static string SectorPosition {
+        public static string SectorPosition {
             get {
                 return ResourceManager.GetString("SectorPosition", resourceCulture);
             }
@@ -1327,7 +1327,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Выберите юридическое лицо.
         /// </summary>
-        internal static string SelectDefaultPromoterLegalEntity {
+        public static string SelectDefaultPromoterLegalEntity {
             get {
                 return ResourceManager.GetString("SelectDefaultPromoterLegalEntity", resourceCulture);
             }
@@ -1336,7 +1336,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Необходимо выбрать агента.
         /// </summary>
-        internal static string SelectedAgentRequired {
+        public static string SelectedAgentRequired {
             get {
                 return ResourceManager.GetString("SelectedAgentRequired", resourceCulture);
             }
@@ -1345,7 +1345,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Дата начала мероприятия.
         /// </summary>
-        internal static string StartDate {
+        public static string StartDate {
             get {
                 return ResourceManager.GetString("StartDate", resourceCulture);
             }
@@ -1354,7 +1354,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Сумма:.
         /// </summary>
-        internal static string SumPricePosition {
+        public static string SumPricePosition {
             get {
                 return ResourceManager.GetString("SumPricePosition", resourceCulture);
             }
@@ -1363,7 +1363,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Кому:.
         /// </summary>
-        internal static string SupplierPosition {
+        public static string SupplierPosition {
             get {
                 return ResourceManager.GetString("SupplierPosition", resourceCulture);
             }
@@ -1372,7 +1372,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Table_Link_16 {
+        public static System.Drawing.Bitmap Table_Link_16 {
             get {
                 object obj = ResourceManager.GetObject("Table_Link_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1382,7 +1382,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Table_Link_32 {
+        public static System.Drawing.Bitmap Table_Link_32 {
             get {
                 object obj = ResourceManager.GetObject("Table_Link_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1392,7 +1392,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TableSelectAll_32 {
+        public static System.Drawing.Bitmap TableSelectAll_32 {
             get {
                 object obj = ResourceManager.GetObject("TableSelectAll_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1402,7 +1402,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TableSelectRow_32 {
+        public static System.Drawing.Bitmap TableSelectRow_32 {
             get {
                 object obj = ResourceManager.GetObject("TableSelectRow_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1412,7 +1412,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap template {
+        public static System.Drawing.Bitmap template {
             get {
                 object obj = ResourceManager.GetObject("template", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1422,7 +1422,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Templates_16 {
+        public static System.Drawing.Bitmap Templates_16 {
             get {
                 object obj = ResourceManager.GetObject("Templates_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1432,7 +1432,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Templates_32 {
+        public static System.Drawing.Bitmap Templates_32 {
             get {
                 object obj = ResourceManager.GetObject("Templates_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1442,7 +1442,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Время:.
         /// </summary>
-        internal static string TimePosition {
+        public static string TimePosition {
             get {
                 return ResourceManager.GetString("TimePosition", resourceCulture);
             }
@@ -1451,7 +1451,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Существует неподтвержденная операция с этими местами. Подтвердите операции..
         /// </summary>
-        internal static string unaccepted_operation {
+        public static string unaccepted_operation {
             get {
                 return ResourceManager.GetString("unaccepted_operation", resourceCulture);
             }
@@ -1460,7 +1460,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Undo_32 {
+        public static System.Drawing.Bitmap Undo_32 {
             get {
                 object obj = ResourceManager.GetObject("Undo_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1470,7 +1470,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Откат....
         /// </summary>
-        internal static string UndoProgress {
+        public static string UndoProgress {
             get {
                 return ResourceManager.GetString("UndoProgress", resourceCulture);
             }
@@ -1479,7 +1479,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap UniteDocuments_32 {
+        public static System.Drawing.Bitmap UniteDocuments_32 {
             get {
                 object obj = ResourceManager.GetObject("UniteDocuments_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1489,7 +1489,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap UniteDocuments_32_2 {
+        public static System.Drawing.Bitmap UniteDocuments_32_2 {
             get {
                 object obj = ResourceManager.GetObject("UniteDocuments_32_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1499,7 +1499,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Up_16 {
+        public static System.Drawing.Bitmap Up_16 {
             get {
                 object obj = ResourceManager.GetObject("Up_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1509,7 +1509,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Up_161 {
+        public static System.Drawing.Bitmap Up_161 {
             get {
                 object obj = ResourceManager.GetObject("Up_161", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1519,7 +1519,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Voucher_Operations_16 {
+        public static System.Drawing.Bitmap Voucher_Operations_16 {
             get {
                 object obj = ResourceManager.GetObject("Voucher_Operations_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1529,7 +1529,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Voucher_Operations_32 {
+        public static System.Drawing.Bitmap Voucher_Operations_32 {
             get {
                 object obj = ResourceManager.GetObject("Voucher_Operations_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -1539,7 +1539,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Операции с накладными.
         /// </summary>
-        internal static string VoucherOperations {
+        public static string VoucherOperations {
             get {
                 return ResourceManager.GetString("VoucherOperations", resourceCulture);
             }
@@ -1548,7 +1548,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Шаблон накладной.
         /// </summary>
-        internal static string VoucherTemplate {
+        public static string VoucherTemplate {
             get {
                 return ResourceManager.GetString("VoucherTemplate", resourceCulture);
             }
@@ -1557,7 +1557,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Необходимо выбрать шаблон накладной.
         /// </summary>
-        internal static string VoucherTemplateRequired {
+        public static string VoucherTemplateRequired {
             get {
                 return ResourceManager.GetString("VoucherTemplateRequired", resourceCulture);
             }
@@ -1566,7 +1566,7 @@ namespace Styx.Properties {
         /// <summary>
         ///   Looks up a localized string similar to .xml.
         /// </summary>
-        internal static string Xml_Extension_String {
+        public static string Xml_Extension_String {
             get {
                 return ResourceManager.GetString("Xml_Extension_String", resourceCulture);
             }

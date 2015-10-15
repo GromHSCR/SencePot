@@ -35,13 +35,13 @@ namespace Styx.Documents
             }
         }
         
-        public ICommand ViewPrintsCommand { get; set; }
+        public ICommand PrintInfoListCommand { get; set; }
 
         public ProgressViewModel LoadingProgress { get; private set; }
 
         public void Init()
         {
-            ViewPrintsCommand = DocumentManager.CreateDocumentCommand<PrintInfoListDocument>();
+			PrintInfoListCommand = DocumentManager.CreateDocumentCommand<PrintInfoListDocument>();
 
             LoadingProgress = new ProgressViewModel();
 

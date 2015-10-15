@@ -1,12 +1,29 @@
-﻿<UserControl x:Class="Styx.Actions.PrintInfoListActions"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Styx.Actions"
-             mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
-    </Grid>
-</UserControl>
+﻿<visualActions1:VisualActionContainer x:Class="Styx.Actions.PrintInfoListActions"
+			xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			xmlns:visualActions1="clr-namespace:Styx.GromHSCR.ActionBase.VisualActions;assembly=Styx.GromHSCR.ActionBase"
+			xmlns:properties1="clr-namespace:Styx.Properties"
+			xmlns:documents="clr-namespace:Styx.Documents"
+			Priority="AboveNormal">
+	<visualActions1:VisualActionContainer.ContextualGroups>
+		<visualActions1:VisualActionContextualGroup Name="PrintInfoListDocumentGroup"
+                                                   Title="Распечатки"
+                                                   BackgroundAndBorder="#FF8D348B"
+                                                   ContextualObjectType="{x:Type documents:PrintInfoListDocument}" />
+	</visualActions1:VisualActionContainer.ContextualGroups>
+
+	<visualActions1:VisualActionGroupTab ContextualGroupName="PrintInfoListDocumentGroup"
+                                        Header="Распечатки"
+                                        IsContextual="True">
+			<visualActions1:VisualActionGroup Title="Действия">
+				<visualActions1:VisualAction Title="Обновить"
+                                        CommandName="RefreshCommand"
+                                        Icon="{x:Static properties1:Resources.Refresh_32}"
+                                        ScreenTipText="Обновить список распечаток"
+                                        Shortcut="F5" />
+				<!--<visualActions:VisualAction Title="Отменить"
+                                        Icon="{x:Static properties:Resources.Cancel_32}"
+                                        ScreenTipText="Отменить обновление"
+                                        Shortcut="Break" />-->
+			</visualActions1:VisualActionGroup>
+	</visualActions1:VisualActionGroupTab>
+</visualActions1:VisualActionContainer>

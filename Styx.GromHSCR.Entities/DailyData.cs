@@ -29,7 +29,7 @@ namespace Styx.GromHSCR.Entities
 
 		public decimal? PressureReturn { get; set; }
 
-		public TimeSpan WorkTime { get; set; }
+		public int WorkTime { get; set; }
 
 		public string ErrorCode { get; set; }
 
@@ -39,7 +39,7 @@ namespace Styx.GromHSCR.Entities
 
 		public decimal? CurrentV2 { get; set; }
 
-		public TimeSpan? CurrentWorkTime { get; set; }
+		public int? CurrentWorkTime { get; set; }
 
 		public DateTime CurrentDateTime { get; set; }
 

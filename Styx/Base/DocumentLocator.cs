@@ -10,14 +10,11 @@
 */
 
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Threading.Tasks;
 using System.Windows;
 using Styx.Documents;
-using Styx.GromHSCR;
-using Styx.GromHSCR.CompostionBase;
-using LogManager = DevExpress.Xpo.Logger.LogManager;
+using Styx.GromHSCR.CompositionBase;
 
 namespace Styx.Base
 {
@@ -36,8 +33,8 @@ namespace Styx.Base
 
         //private static readonly ILog _log = LogManager.GetLogger(typeof(Program));
 
-		[Import(typeof(IPrintService))]
-		private IPrintService _printService;
+		[Import(typeof(IPrintInfoService))]
+		private IPrintInfoService _printInfoService;
 
 		[Import]
 		private IProgramInit _programInit;
@@ -59,6 +56,7 @@ namespace Styx.Base
 		public DocumentLocator()
 		{
 			_programInit = Composition.GetExportedValue<IProgramInit>();
+			_printInfoService = Composition.GetExportedValue<IPrintInfoService>();
 			//Composition.ComposeParts(this);
 			Initialization();
 		}

@@ -2,7 +2,7 @@
 using System.Reflection;
 using Styx.GromHSCR.Repositories;
 
-namespace Styx.GromHSCR.DataService.AssemblyCatalogs
+namespace Styx.AssemblyCatalogs
 {
 	public class DataServicesCatalog : AssemblyCatalog
 	{

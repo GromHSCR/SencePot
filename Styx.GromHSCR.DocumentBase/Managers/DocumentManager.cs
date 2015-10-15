@@ -5,7 +5,7 @@ using System.ComponentModel.Composition;
 using System.Linq;
 using System.Windows.Input;
 using GalaSoft.MvvmLight.Command;
-using Styx.GromHSCR.CompostionBase;
+using Styx.GromHSCR.CompositionBase;
 using Styx.GromHSCR.DocumentBase.Documents;
 using Styx.GromHSCR.DocumentBase.Messages;
 using Styx.GromHSCR.MvvmBase.ViewModels;
@@ -13,7 +13,7 @@ using Styx.GromHSCR.MvvmBase.ViewModels;
 namespace Styx.GromHSCR.DocumentBase.Managers
 {
 	[Export(typeof(IDocumentManager))]
-	[PartCreationPolicy(CreationPolicy.NonShared)]
+	[PartCreationPolicy(CreationPolicy.Any)]
 	public class DocumentManager : ViewModelBase, IDocumentManager
 	{
 		private readonly ObservableCollection<IDocument> _documents;

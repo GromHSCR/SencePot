@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 
-namespace Styx.GromHSCR.CompostionBase.Configurations
+namespace Styx.GromHSCR.CompositionBase.Configurations
 {
 	public class CompositionConfigurationSection : ConfigurationSection
 	{

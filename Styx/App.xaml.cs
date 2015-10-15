@@ -4,7 +4,7 @@ using System.Windows.Threading;
 using GalaSoft.MvvmLight.Threading;
 using Styx.Base;
 using Styx.Documents;
-using Styx.GromHSCR.CompostionBase;
+using Styx.GromHSCR.CompositionBase;
 
 namespace Styx
 {

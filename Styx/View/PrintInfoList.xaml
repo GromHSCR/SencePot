@@ -11,7 +11,6 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Skins/MainSkin.xaml" />
-                <ResourceDictionary Source="/Resources/RowTemplates.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
@@ -19,7 +18,7 @@
     <Grid x:Name="LayoutRoot">
         <dxg:GridControl Name="GridControl">
             <dxg:GridControl.Columns>
-                <dxg:GridColumn FieldName="Name" Header="Наименование" Width="250" />
+                <dxg:GridColumn FieldName="Number" Header="Номер" Width="250" />
 				<dxg:GridColumn FieldName="PrintStartDate" Header="{x:Static properties:Resources.StartDate}">
                     <dxg:GridColumn.CellTemplate>
                         <DataTemplate>

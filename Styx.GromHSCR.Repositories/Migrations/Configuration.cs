@@ -33,11 +33,34 @@ namespace Styx.GromHSCR.Repositories.Migrations
 
 		private void AddFirstData(DefaultContext context)
 		{
-#if DEBUG
-			var city = new City() { Id = Guid.NewGuid(), Name = "Город" };
+			var city = new City() { Id = Guid.NewGuid(), Name = "Москва" };
 			context.Cities.Add(city);
-			var region = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Район" };
+			var region = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Северо-Западный (СЗАО)" };
 			context.Regions.Add(region);
+			var region1 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Северный (САО)" };
+			context.Regions.Add(region1);
+			var region2 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Северо-Восточный (СВАО)" };
+			context.Regions.Add(region2);
+			var region3 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Западный (ЗАО)" };
+			context.Regions.Add(region3);
+			var region4 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Центральный (ЦАО)" };
+			context.Regions.Add(region4);
+			var region5 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Восточный (ВАО)" };
+			context.Regions.Add(region5);
+			var region6 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Юго-Западный (ЮЗАО)" };
+			context.Regions.Add(region6);
+			var region7 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Южный (ЮАО)" };
+			context.Regions.Add(region7);
+			var region8 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Юго-Восточный (ЮВАО)" };
+			context.Regions.Add(region8);
+			var region9 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Зеленоградский (ЗелАО)" };
+			context.Regions.Add(region9);
+			var region10 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Новомосковский (НАО)" };
+			context.Regions.Add(region10);
+			var region11 = new Region() { Id = Guid.NewGuid(), CityId = city.Id, Name = "Троицкий (ТАО)" };
+			context.Regions.Add(region11);
+#if DEBUG
+			
 			var street = new Street() { Id = Guid.NewGuid(), RegionId = region.Id, CityId = city.Id, Name = "Улица" };
 			context.Streets.Add(street);
 			var house = new House() { Id = Guid.NewGuid(), StreetId = street.Id, Number = 1 };
@@ -65,6 +88,7 @@ namespace Styx.GromHSCR.Repositories.Migrations
 			context.HousePrefixes.Add(housePrefix);
 			var address = new Address()
 			{
+				Id = Guid.NewGuid(),
 				CityId = city.Id,
 				RegionId = region.Id,
 				StreetId = street.Id,
@@ -84,14 +108,15 @@ namespace Styx.GromHSCR.Repositories.Migrations
 			context.CounterModels.Add(heatCounterModel);
 			var heatCounter = new HeatCounter()
 			{
+				Id = Guid.NewGuid(),
 				AddressId = address.Id,
 				CounterModelId = heatCounterModel.Id,
-				Id = Guid.NewGuid(),
 				Number = 666666
 			};
 			context.HeatCounters.Add(heatCounter);
 			var printInfo = new PrintInfo()
 			{
+				Id = Guid.NewGuid(),
 				AddressId = address.Id,
 				PrintStartDate = DateTime.Today,
 				PrintEndDate = DateTime.Today + TimeSpan.FromDays(1),
@@ -105,7 +130,7 @@ namespace Styx.GromHSCR.Repositories.Migrations
 				CurrentDateTime = DateTime.Now,
 				IsValid = false,
 				ErrorCode = "U",
-				WorkTime = TimeSpan.FromHours(14)
+				WorkTime = 14
 			};
 			context.DailyDatas.Add(dailyData);
 

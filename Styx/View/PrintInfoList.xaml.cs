@@ -18,7 +18,7 @@ namespace Styx.View
     /// <summary>
 	/// Логика взаимодействия для PrintInfoList.xaml
     /// </summary>
-    public partial class PrintInfoList : UserControl
+    public partial class PrintInfoList 
     {
 		public PrintInfoList()
         {

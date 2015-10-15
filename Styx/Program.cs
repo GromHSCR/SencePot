@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows;
-using Styx.GromHSCR.CompostionBase;
+using Styx.GromHSCR.CompositionBase;
 
 namespace Styx
 {

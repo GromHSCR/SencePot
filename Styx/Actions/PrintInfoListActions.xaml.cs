@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,17 +13,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Styx.GromHSCR.ActionBase.VisualActions;
 
 namespace Styx.Actions
 {
-    /// <summary>
-    /// Логика взаимодействия для PrintInfoListActions.xaml
-    /// </summary>
-    public partial class PrintInfoListActions : UserControl
-    {
-        public PrintInfoListActions()
-        {
-            InitializeComponent();
-        }
-    }
+	/// <summary>
+	/// Логика взаимодействия для PrintInfoListActions.xaml
+	/// </summary>
+	[Export(typeof(IVisualActionProvider))]
+	public partial class PrintInfoListActions
+	{
+		public PrintInfoListActions()
+		{
+			InitializeComponent();
+		}
+	}
 }

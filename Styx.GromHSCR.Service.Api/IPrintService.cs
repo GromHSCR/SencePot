@@ -3,7 +3,7 @@ using Styx.GromHSCR.Api.Interfaces;
 
 namespace Styx
 {
-    public interface IPrintService
+    public interface IPrintInfoService
     {
         IEnumerable<IPrintInfo> GetAllPrintInfos();
     }

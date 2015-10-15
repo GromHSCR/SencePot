@@ -13,10 +13,10 @@ namespace Styx.GromHSCR.Entities
 
         public int Number { get; set; }
 
-        public virtual IEnumerable<Housing> Housings { get; set; }
+        public virtual List<Housing> Housings { get; set; }
 
-        public virtual IEnumerable<Building> Buildings { get; set; }
+        public virtual List<Building> Buildings { get; set; }
 
-        public virtual IEnumerable<HousePrefix> HousePrefixes { get; set; }
+        public virtual List<HousePrefix> HousePrefixes { get; set; }
     }
 }

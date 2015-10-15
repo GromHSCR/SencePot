@@ -13,6 +13,6 @@ namespace Styx.GromHSCR.Entities
 
         public string Name { get; set; }
 
-        public virtual IEnumerable<Street> Streets { get; set; }
+        public virtual List<Street> Streets { get; set; }
     }
 }

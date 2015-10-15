@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Styx.GromHSCR.Api.Interfaces
 {
@@ -11,5 +12,7 @@ namespace Styx.GromHSCR.Api.Interfaces
 		DateTime LastCheckDate { get; set; }
 
 		HeatType HeatType { get; set; }
+
+		IEnumerable<IHeatCounter> Counters { get; set; } 
 	}
 }

@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'debugger|AnyCPU'">
+    <OutputPath>bin\debugger\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Xpf.Core.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -76,9 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Styx.GromHSCR.CompostionBase\Styx.GromHSCR.CompostionBase.csproj">
+    <ProjectReference Include="..\Styx.GromHSCR.CompostionBase\Styx.GromHSCR.CompositionBase.csproj">
       <Project>{D720DF75-FC08-4729-A03B-C2C7BDF44255}</Project>
-      <Name>Styx.GromHSCR.CompostionBase</Name>
+      <Name>Styx.GromHSCR.CompositionBase</Name>
     </ProjectReference>
     <ProjectReference Include="..\Styx.GromHSCR.Helpers\Styx.GromHSCR.Helpers.csproj">
       <Project>{E83517E4-B85A-4338-9BE5-29D22FCA4E84}</Project>

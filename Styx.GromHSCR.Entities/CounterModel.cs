@@ -14,5 +14,7 @@ namespace Styx.GromHSCR.Entities
 		public DateTime LastCheckDate { get; set; }
 
 		public HeatType HeatType { get; set; }
+
+		public virtual IEnumerable<HeatCounter> Counters { get; set; }
 	}
 }

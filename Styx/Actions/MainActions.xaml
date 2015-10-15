@@ -1,12 +1,15 @@
-﻿<UserControl x:Class="Styx.Actions.MainActions"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Styx.Actions"
-             mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
-    </Grid>
-</UserControl>
+﻿<visualActions1:VisualActionContainer x:Class="Styx.Actions.MainActions"
+			xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			xmlns:visualActions1="clr-namespace:Styx.GromHSCR.ActionBase.VisualActions;assembly=Styx.GromHSCR.ActionBase"
+			xmlns:properties1="clr-namespace:Styx.Properties"
+			Priority="AboveNormal">
+	<visualActions1:VisualActionGroupTab Header="Главная" KeyTip="M">
+		<visualActions1:VisualActionGroup Title="Распечатки">
+			<visualActions1:VisualAction Title="Список"
+				Icon="{x:Static properties1:Resources.List_Items_32}"
+				CommandName="PrintInfoListCommand"
+				GlobalShortcut="Ctrl+L"
+				ScreenTipText="Список распечаток"/>
+		</visualActions1:VisualActionGroup>
+	</visualActions1:VisualActionGroupTab>
+</visualActions1:VisualActionContainer>

@@ -15,11 +15,11 @@ namespace Styx.GromHSCR.Api.Interfaces
 
 		IHeatCounter HeatCounter { get; set; }
 
-		Guid OrganizationId { get; set; }
+		Guid? OrganizationId { get; set; }
 
 		IOrganization Organization { get; set; }
 
-		Guid ContractId { get; set; }
+		Guid? ContractId { get; set; }
 
 		IContract Contract { get; set; }
 

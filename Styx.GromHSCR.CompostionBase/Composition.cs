@@ -3,9 +3,9 @@ using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.ComponentModel.Composition.Primitives;
 using System.Reflection;
-using Styx.GromHSCR.CompostionBase.Configurations;
+using Styx.GromHSCR.CompositionBase.Configurations;
 
-namespace Styx.GromHSCR.CompostionBase
+namespace Styx.GromHSCR.CompositionBase
 {
 	public static class Composition
 	{
@@ -53,7 +53,7 @@ namespace Styx.GromHSCR.CompostionBase
 			}
 		}
 
-		public static T ComposeParts<T>(T attributedPart) where T: class
+		public static T ComposeParts<T>(T attributedPart) where T : class
 		{
 			if (attributedPart == null) return null;
 

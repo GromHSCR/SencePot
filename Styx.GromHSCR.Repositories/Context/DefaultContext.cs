@@ -5,7 +5,7 @@ namespace Styx.GromHSCR.Repositories.Context
 {
 	public class DefaultContext : DbContext
 	{
-		public DefaultContext() : base("Redkassa.Promoter.Database")
+		public DefaultContext() : base("Styx.GromHSCR.DataBase")
 		{
 			Configuration.LazyLoadingEnabled = true;
 		}

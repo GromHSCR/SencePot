@@ -12,7 +12,7 @@ namespace Styx
 		/// </summary>
 		public MainWindow()
 		{
-			Title = String.Format("RedKassa {0} - Организатор", GetPublishedVersion());
+			Title = String.Format("Styx {0}", GetPublishedVersion());
 			InitializeComponent();
 		}
 

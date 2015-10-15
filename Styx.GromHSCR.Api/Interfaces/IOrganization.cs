@@ -7,9 +7,7 @@ namespace Styx.GromHSCR.Api.Interfaces
 	{
 		string Name { get; set; }
 
-		Guid LegalEntityId { get; set; }
-
-		ILegalEntity LegalEntity { get; set; }
+		IEnumerable<ILegalEntity> LegalEntities { get; set; }
 
 		IEnumerable<IContract> Contracts { get; set; } 
 

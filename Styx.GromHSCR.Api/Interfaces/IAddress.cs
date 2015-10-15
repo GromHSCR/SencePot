@@ -29,5 +29,7 @@ namespace Styx.GromHSCR.Api.Interfaces
 		IBuilding Building { get; set; }
 
 		IHousing Housing { get; set; }
+
+		IHousePrefix HousePrefix { get; set; }
 	}
 }
