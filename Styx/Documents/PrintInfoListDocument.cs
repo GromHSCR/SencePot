@@ -30,7 +30,7 @@ namespace Styx.Documents
         {
             base.Initialization();
             Title = "Список распечаток";
-            IconSource = Properties.Resources.List_Items_32.ToBitmapImage();
+            IconSource = Properties.Resources.List_Items_16.ToBitmapImage();
         }
 
         protected override void InitializationCommands()
@@ -133,6 +133,11 @@ namespace Styx.Documents
                         Text = "Обработано файлов " + countParsed + " из " + filesCount
                     });
                 }
+                MessengerInstance.Send(new ProgressMessage
+                {
+                    ProgressType = ProgressType.Stop,
+                    Text = ""
+                });
             }
                 );
         }

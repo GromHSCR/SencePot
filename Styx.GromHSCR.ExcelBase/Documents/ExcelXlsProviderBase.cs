@@ -20,7 +20,6 @@ namespace Styx.GromHSCR.DocumentParserBase.Documents
 
 		private readonly IDictionary<string, List<IDictionary<string, string>>> _tablesParameters;
 
-		public abstract ReturnEvent ReturnEvent { get; set; }
 
 		private int _countColumn;
 

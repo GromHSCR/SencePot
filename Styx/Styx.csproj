@@ -49,40 +49,76 @@
       <HintPath>..\packages\AutoMapper.4.0.4\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Data.v14.1.dll</HintPath>
-      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Images.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Images.v14.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Mvvm.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Mvvm.v14.1.dll</HintPath>
-      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Printing.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.1.UI">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Utils.v14.1.UI.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Core.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Core.v14.1.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Xpf.Docking.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Docking.v14.1.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Xpf.Grid.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Xpf.Grid.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Core.dll</HintPath>
-      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1.Extensions">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Grid.v14.1.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Layout.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Layout.v14.1.Core.dll</HintPath>
-      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.LayoutControl.v14.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.NavBar.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.NavBar.v14.1.dll</HintPath>
-      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Ribbon.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Ribbon.v14.1.dll</HintPath>
-      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.LightGray.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.LightGray.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2007Blue.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2013.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.Xpf.Themes.Office2013.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.1">
+      <HintPath>..\packages\DevExpress_Promoter_All.14.1.6\lib\net45\DevExpress.XtraBars.v14.1.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -308,6 +344,10 @@
     <ProjectReference Include="..\Styx.GromHSCR.Entities\Styx.GromHSCR.Entities.csproj">
       <Project>{475974e9-3178-4c8a-99e8-099775160eb3}</Project>
       <Name>Styx.GromHSCR.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Styx.GromHSCR.ExcelBase\Styx.GromHSCR.DocumentParserBase.csproj">
+      <Project>{daaa7dc5-beb0-44d4-8d7c-9be1e8cc6b34}</Project>
+      <Name>Styx.GromHSCR.DocumentParserBase</Name>
     </ProjectReference>
     <ProjectReference Include="..\Styx.GromHSCR.Helpers\Styx.GromHSCR.Helpers.csproj">
       <Project>{E83517E4-B85A-4338-9BE5-29D22FCA4E84}</Project>

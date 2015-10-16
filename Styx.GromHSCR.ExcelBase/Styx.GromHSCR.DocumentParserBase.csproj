@@ -84,10 +84,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RedKassa.Promoter.Api\RedKassa.Promoter.Api.csproj">
-      <Project>{b3242a38-d042-4fac-8291-e1c0c9bbd12d}</Project>
-      <Name>RedKassa.Promoter.Api</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Styx.GromHSCR.Api\Styx.GromHSCR.Api.csproj">
       <Project>{DF769A92-BEE5-451D-9782-572460E8D650}</Project>
       <Name>Styx.GromHSCR.Api</Name>

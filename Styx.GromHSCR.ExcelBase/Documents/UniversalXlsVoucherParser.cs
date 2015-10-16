@@ -26,7 +26,7 @@ namespace Styx.GromHSCR.DocumentParserBase.Documents
 		public string TimeValue { get; set; }
 		public string PlaceValue { get; set; }
 
-		public override IDictionary<string, IDictionary<string, string>> Tables
+	    public override IDictionary<string, IDictionary<string, string>> Tables
 		{
 			get
 			{
@@ -169,15 +169,12 @@ namespace Styx.GromHSCR.DocumentParserBase.Documents
 		public override List<ICell> Cells { get; set; }
 		public override List<IRow> Rows { get; set; }
 
-		public override ReturnEvent ReturnEvent { get; set; }
-
 		public override void Fill()
 		{
 			try
 			{
 				base.Fill();
 
-				var returnSeats = new List<Seat>();
 				if (Arguments.ContainsKey("From"))
 				{
 					FromValue = GetArgument<string>("From");
@@ -210,77 +207,77 @@ namespace Styx.GromHSCR.DocumentParserBase.Documents
 				{
 					var rowsCount = GetTableRowsCount(table.Key);
 
-					for (var i = 0; i < rowsCount; i++)
-					{
-						var sector = GetTableArgument<string>(table.Key, i, "Sector");
-						var row = GetTableArgument<string>(table.Key, i, "Row");
-						var seatNumbers = GetTableArgument<string>(table.Key, i, "SeatNumbers");
-						var seatGroup = GetTableArgument<string>(table.Key, i, "SeatGroup");
-						var seatFrom = GetTableArgument<string>(table.Key, i, "SeatFrom");
-						var seatTo = GetTableArgument<string>(table.Key, i, "SeatTo");
-						var count = GetTableArgument<string>(table.Key, i, "Count");
-						var price = GetTableArgument<string>(table.Key, i, "Price");
-						var sumPrice = GetTableArgument<string>(table.Key, i, "SumPrice");
-						int seatCount;
-						int.TryParse(count, out seatCount);
-						var seatPrice = VoucherHelper.Price(price);
-						var seatTotalPrice = VoucherHelper.TotalPrice(sumPrice);
-						if (!VoucherHelper.CheckTotalPrice(seatCount, seatPrice, seatTotalPrice))
-						{
-							MessageBox.Show("В накладной произведение цены: " + seatPrice + " и количества билетов: " + seatCount + " не равно сумме: " + seatTotalPrice + " (" + (i + 1) + " строка)", "Предупреждение");
-						}
-						if (string.IsNullOrWhiteSpace(row)
-							|| (row != null && string.IsNullOrWhiteSpace(Regex.Match(row, @"[0-9]", RegexOptions.IgnoreCase).Value)) ||
-							((string.IsNullOrWhiteSpace(seatNumbers) || (seatNumbers != null && string.IsNullOrWhiteSpace(Regex.Match(seatNumbers, @"[0-9]", RegexOptions.IgnoreCase).Value)))
-							&& (string.IsNullOrWhiteSpace(seatFrom) || (seatFrom != null && string.IsNullOrWhiteSpace(Regex.Match(seatFrom, @"[0-9]", RegexOptions.IgnoreCase).Value)))
-							&& (string.IsNullOrWhiteSpace(seatTo) || (seatTo != null && string.IsNullOrWhiteSpace(Regex.Match(seatTo, @"[0-9]", RegexOptions.IgnoreCase).Value)))))
-						{
-							returnSeats.Add(
-									new Seat
-									{
-										Sector = sector,
-										Row = "withoutrow",
-										SeatName = seatCount,
-										SeatGroup = "",
-										Price = seatPrice
-									});
-						}
-						else if (!string.IsNullOrEmpty(seatNumbers))
-						{
-							var seatNumber = VoucherHelper.FromIntervalToNumbers(seatNumbers);
-							if (!seatNumber.Any()) continue;
-							for (var j = 0; j < seatCount; j++)
-							{
-								returnSeats.Add(
-									new Seat
-									{
-										Sector = sector,
-										Row = row,
-										SeatName = seatNumber[j],
-										SeatGroup = seatGroup,
-										Price = seatPrice
-									});
-							}
-						}
-						else if (!string.IsNullOrEmpty(seatFrom) && !string.IsNullOrEmpty(seatTo))
-						{
-							var seatNumber = VoucherHelper.FromIntervalToNumbers(seatFrom, seatTo);
-							if (!seatNumber.Any()) continue;
-							for (var j = 0; j < seatCount; j++)
-							{
-								returnSeats.Add(
-									new Seat
-									{
-										Sector = sector,
-										Row = row,
-										SeatName = seatNumber[j],
-										SeatGroup = "",
-										Price = seatPrice
-									});
-							}
-						}
+                    //for (var i = 0; i < rowsCount; i++)
+                    //{
+                    //    var sector = GetTableArgument<string>(table.Key, i, "Sector");
+                    //    var row = GetTableArgument<string>(table.Key, i, "Row");
+                    //    var seatNumbers = GetTableArgument<string>(table.Key, i, "SeatNumbers");
+                    //    var seatGroup = GetTableArgument<string>(table.Key, i, "SeatGroup");
+                    //    var seatFrom = GetTableArgument<string>(table.Key, i, "SeatFrom");
+                    //    var seatTo = GetTableArgument<string>(table.Key, i, "SeatTo");
+                    //    var count = GetTableArgument<string>(table.Key, i, "Count");
+                    //    var price = GetTableArgument<string>(table.Key, i, "Price");
+                    //    var sumPrice = GetTableArgument<string>(table.Key, i, "SumPrice");
+                    //    int seatCount;
+                    //    int.TryParse(count, out seatCount);
+                    //    var seatPrice = VoucherHelper.Price(price);
+                    //    var seatTotalPrice = VoucherHelper.TotalPrice(sumPrice);
+                    //    if (!VoucherHelper.CheckTotalPrice(seatCount, seatPrice, seatTotalPrice))
+                    //    {
+                    //        MessageBox.Show("В накладной произведение цены: " + seatPrice + " и количества билетов: " + seatCount + " не равно сумме: " + seatTotalPrice + " (" + (i + 1) + " строка)", "Предупреждение");
+                    //    }
+                    //    if (string.IsNullOrWhiteSpace(row)
+                    //        || (row != null && string.IsNullOrWhiteSpace(Regex.Match(row, @"[0-9]", RegexOptions.IgnoreCase).Value)) ||
+                    //        ((string.IsNullOrWhiteSpace(seatNumbers) || (seatNumbers != null && string.IsNullOrWhiteSpace(Regex.Match(seatNumbers, @"[0-9]", RegexOptions.IgnoreCase).Value)))
+                    //        && (string.IsNullOrWhiteSpace(seatFrom) || (seatFrom != null && string.IsNullOrWhiteSpace(Regex.Match(seatFrom, @"[0-9]", RegexOptions.IgnoreCase).Value)))
+                    //        && (string.IsNullOrWhiteSpace(seatTo) || (seatTo != null && string.IsNullOrWhiteSpace(Regex.Match(seatTo, @"[0-9]", RegexOptions.IgnoreCase).Value)))))
+                    //    {
+                    //        returnSeats.Add(
+                    //                new Seat
+                    //                {
+                    //                    Sector = sector,
+                    //                    Row = "withoutrow",
+                    //                    SeatName = seatCount,
+                    //                    SeatGroup = "",
+                    //                    Price = seatPrice
+                    //                });
+                    //    }
+                    //    else if (!string.IsNullOrEmpty(seatNumbers))
+                    //    {
+                    //        var seatNumber = VoucherHelper.FromIntervalToNumbers(seatNumbers);
+                    //        if (!seatNumber.Any()) continue;
+                    //        for (var j = 0; j < seatCount; j++)
+                    //        {
+                    //            returnSeats.Add(
+                    //                new Seat
+                    //                {
+                    //                    Sector = sector,
+                    //                    Row = row,
+                    //                    SeatName = seatNumber[j],
+                    //                    SeatGroup = seatGroup,
+                    //                    Price = seatPrice
+                    //                });
+                    //        }
+                    //    }
+                    //    else if (!string.IsNullOrEmpty(seatFrom) && !string.IsNullOrEmpty(seatTo))
+                    //    {
+                    //        var seatNumber = VoucherHelper.FromIntervalToNumbers(seatFrom, seatTo);
+                    //        if (!seatNumber.Any()) continue;
+                    //        for (var j = 0; j < seatCount; j++)
+                    //        {
+                    //            returnSeats.Add(
+                    //                new Seat
+                    //                {
+                    //                    Sector = sector,
+                    //                    Row = row,
+                    //                    SeatName = seatNumber[j],
+                    //                    SeatGroup = "",
+                    //                    Price = seatPrice
+                    //                });
+                    //        }
+                    //    }
 
-					}
+                    //}
 					var dateTime = DateTime.Now;
 					if (!string.IsNullOrEmpty(DateTimeValue))
 					{
@@ -305,13 +302,13 @@ namespace Styx.GromHSCR.DocumentParserBase.Documents
 						}
 
 					}
-					ReturnEvent = new ReturnEvent
-					{
-						ReturnSeats = returnSeats,
-						Agent = VoucherHelper.From(FromValue),
-						Event = VoucherHelper.Event(EventValue),
-						DateTime = dateTime
-					};
+                    //ReturnEvent = new ReturnEvent
+                    //{
+                    //    ReturnSeats = returnSeats,
+                    //    Agent = VoucherHelper.From(FromValue),
+                    //    Event = VoucherHelper.Event(EventValue),
+                    //    DateTime = dateTime
+                    //};
 				}
 			}
 			catch (Exception e)

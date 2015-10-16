@@ -322,8 +322,6 @@ namespace Styx.GromHSCR.DocumentParserBase.Documents
 	    {
 	    }
 
-	    public override ReturnEvent ReturnEvent { get; set; }
-
 	    public override IDictionary<string, IDictionary<string, string>> Tables
 	    {
 	        get { throw new NotImplementedException(); }
