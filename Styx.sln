@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styx.GromHSCR.Api", "Styx.G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styx.GromHSCR.DocumentParserBase", "Styx.GromHSCR.ExcelBase\Styx.GromHSCR.DocumentParserBase.csproj", "{DAAA7DC5-BEB0-44D4-8D7C-9BE1E8CC6B34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styx.GromHSCR.SawMill", "Styx.GromHSCR.SawMill\Styx.GromHSCR.SawMill.csproj", "{3D465F71-7587-4C96-8E4D-71DEC002CC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styx.GromHSCR.FleaCatcher", "Styx.GromHSCR.FleaCatcher\Styx.GromHSCR.FleaCatcher.csproj", "{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -268,6 +272,24 @@ Global
 		{DAAA7DC5-BEB0-44D4-8D7C-9BE1E8CC6B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAAA7DC5-BEB0-44D4-8D7C-9BE1E8CC6B34}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAAA7DC5-BEB0-44D4-8D7C-9BE1E8CC6B34}.Release|x86x64.ActiveCfg = Release|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.Debug|x86x64.ActiveCfg = Debug|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.debugger|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.debugger|Any CPU.Build.0 = Debug|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.debugger|x86x64.ActiveCfg = Debug|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D465F71-7587-4C96-8E4D-71DEC002CC24}.Release|x86x64.ActiveCfg = Release|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.Debug|x86x64.ActiveCfg = Debug|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.debugger|Any CPU.ActiveCfg = Debug|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.debugger|Any CPU.Build.0 = Debug|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.debugger|x86x64.ActiveCfg = Debug|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C130BF5D-A7DD-4725-A6FB-FFC6F56E8EA8}.Release|x86x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

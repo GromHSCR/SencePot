@@ -1,0 +1,37 @@
+﻿<visualActions1:VisualActionContainer x:Class="Styx.Actions.LumberMillActions"
+			xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			xmlns:visualActions1="clr-namespace:Styx.GromHSCR.ActionBase.VisualActions;assembly=Styx.GromHSCR.ActionBase"
+			xmlns:properties1="clr-namespace:Styx.Properties"
+			xmlns:documents="clr-namespace:Styx.Documents"
+			Priority="AboveNormal">
+	<visualActions1:VisualActionContainer.ContextualGroups>
+        <visualActions1:VisualActionContextualGroup Name="LumberMillDocumentGroup"
+                                                   Title="Распечатки"
+                                                   BackgroundAndBorder="#FF8D348B"
+                                                   ContextualObjectType="{x:Type documents:LumberMillDocument}" />
+	</visualActions1:VisualActionContainer.ContextualGroups>
+
+    <visualActions1:VisualActionGroupTab ContextualGroupName="LumberMillDocumentGroup"
+                                        Header="Лесопилка"
+                                        IsContextual="True">
+			<visualActions1:VisualActionGroup Title="Действия">
+				<visualActions1:VisualAction Title="Обновить"
+                                        CommandName="RefreshCommand"
+                                        Icon="{x:Static properties1:Resources.Refresh_32}"
+                                        ScreenTipText="Обновить список распечаток"
+                                        Shortcut="F5" />
+				<!--<visualActions:VisualAction Title="Отменить"
+                                        Icon="{x:Static properties:Resources.Cancel_32}"
+                                        ScreenTipText="Отменить обновление"
+                                        Shortcut="Break" />-->
+			</visualActions1:VisualActionGroup>
+
+        <visualActions1:VisualActionGroup Title="Действия">
+            <visualActions1:VisualAction Title="Пилить"
+                                        CommandName="SawCommand"
+                                        Icon="{x:Static properties1:Resources.UniteDocuments_32}"
+                                        ScreenTipText="Пилить"
+                                        Shortcut="Ctrl + L" />
+            </visualActions1:VisualActionGroup>
+    </visualActions1:VisualActionGroupTab>
+</visualActions1:VisualActionContainer>

@@ -6,4 +6,8 @@
 	<DataTemplate DataType="{x:Type documents:PrintInfoListDocument}">
 		<view1:PrintInfoList />
 	</DataTemplate>
+
+    <DataTemplate DataType="{x:Type documents:LumberMillDocument}">
+        <view1:LumberMill />
+    </DataTemplate>
 </ResourceDictionary>

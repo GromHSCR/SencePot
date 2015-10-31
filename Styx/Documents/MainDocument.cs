@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Styx.Actions;
 using Styx.Base;
 using Styx.GromHSCR.ActionBase.VisualActions;
 using Styx.GromHSCR.DocumentBase.Documents;
@@ -34,14 +35,16 @@ namespace Styx.Documents
                 return _actionProviders.OrderByDescending(p => p.Priority);
             }
         }
-        
+
         public ICommand PrintInfoListCommand { get; set; }
+        public ICommand LumberMillCommand { get; set; }
 
         public ProgressViewModel LoadingProgress { get; private set; }
 
         public void Init()
         {
 			PrintInfoListCommand = DocumentManager.CreateDocumentCommand<PrintInfoListDocument>();
+            LumberMillCommand = DocumentManager.CreateDocumentCommand<LumberMillDocument>();
 
             LoadingProgress = new ProgressViewModel();
 

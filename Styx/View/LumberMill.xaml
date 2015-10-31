@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Styx.View.LumberMill"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:properties="clr-namespace:Styx.Properties">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Skins/MainSkin.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" HorizontalAlignment="Left">
+        <StackPanel Orientation="Vertical">
+            <GroupBox Width="700">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="175" />
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="{x:Static properties:Resources.InputFolder}" />
+                    <dxe:TextEdit Grid.Row="0" Grid.Column="1" Text="{Binding Path=ViewModel.InputFolder, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}" />
+                    <Button Grid.Row="0" Grid.Column="2" Width="80" Height="30" Content="{x:Static properties:Resources.Browse}" Click="ButtonEdit_OnDefaultButtonClick"/>
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="{x:Static properties:Resources.OutputFolder}" />
+                    <dxe:TextEdit Grid.Row="1" Grid.Column="1" Text="{Binding Path=ViewModel.OutputFolder, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}" />
+                    <Button Grid.Row="1" Grid.Column="2" Width="80" Height="30" Content="{x:Static properties:Resources.Browse}" Click="ButtonEdit_OnDefaultButtonClick2"/>
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="{x:Static properties:Resources.IsSawRtf}" />
+                    <CheckBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding Path=ViewModel.IsSawRtf, UpdateSourceTrigger=PropertyChanged}"></CheckBox>
+
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="{x:Static properties:Resources.IsSawPdf}" />
+                    <CheckBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding Path=ViewModel.IsSawPdf, UpdateSourceTrigger=PropertyChanged}"></CheckBox>
+
+                    <TextBlock Grid.Row="4" Grid.Column="0" Text="{x:Static properties:Resources.IsDesolateOriginal}" />
+                    <CheckBox Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding Path=ViewModel.IsDesolateOriginal, UpdateSourceTrigger=PropertyChanged}"></CheckBox>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

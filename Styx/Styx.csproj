@@ -160,6 +160,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Actions\LumberMillActions.xaml.cs">
+      <DependentUpon>LumberMillActions.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Actions\PrintInfoListActions.xaml.cs">
       <DependentUpon>PrintInfoListActions.xaml</DependentUpon>
     </Compile>
@@ -176,6 +179,7 @@
     <Compile Include="Controls\ButtonUp.xaml.cs" />
     <Compile Include="Controls\DockLayoutManagerEx.cs" />
     <Compile Include="Controls\SeanceNameAndDate.xaml.cs" />
+    <Compile Include="Documents\LumberMillDocument.cs" />
     <Compile Include="Documents\MainDocument.cs" />
     <Compile Include="Documents\PrintInfoListDocument.cs" />
     <Compile Include="Messages\ProgressMessage.cs" />
@@ -194,13 +198,21 @@
     <Compile Include="ViewModel\CollectionViewSourceEx.cs" />
     <Compile Include="ViewModel\PrintInfoViewModel.cs" />
     <Compile Include="ViewModel\ProgressViewModel.cs" />
+    <Compile Include="ViewModel\SawMillOptionsViewModel.cs" />
     <Compile Include="View\EventsTabControl.xaml.cs" />
+    <Compile Include="View\LumberMill.xaml.cs">
+      <DependentUpon>LumberMill.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\PrintInfoList.xaml.cs">
       <DependentUpon>PrintInfoList.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\TabbedContent.xaml.cs">
       <DependentUpon>TabbedContent.xaml</DependentUpon>
     </Compile>
+    <Page Include="Actions\LumberMillActions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Actions\PrintInfoListActions.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -256,6 +268,10 @@
     <Page Include="View\EventsTabControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\LumberMill.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\PrintInfoList.xaml">
       <SubType>Designer</SubType>
@@ -349,6 +365,10 @@
       <Project>{daaa7dc5-beb0-44d4-8d7c-9be1e8cc6b34}</Project>
       <Name>Styx.GromHSCR.DocumentParserBase</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Styx.GromHSCR.FleaCatcher\Styx.GromHSCR.FleaCatcher.csproj">
+      <Project>{c130bf5d-a7dd-4725-a6fb-ffc6f56e8ea8}</Project>
+      <Name>Styx.GromHSCR.FleaCatcher</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Styx.GromHSCR.Helpers\Styx.GromHSCR.Helpers.csproj">
       <Project>{E83517E4-B85A-4338-9BE5-29D22FCA4E84}</Project>
       <Name>Styx.GromHSCR.Helpers</Name>
@@ -364,6 +384,10 @@
     <ProjectReference Include="..\Styx.GromHSCR.Repositories\Styx.GromHSCR.Repositories.csproj">
       <Project>{658d7a27-925c-4033-b86f-56bf845181f0}</Project>
       <Name>Styx.GromHSCR.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Styx.GromHSCR.SawMill\Styx.GromHSCR.SawMill.csproj">
+      <Project>{3d465f71-7587-4c96-8e4d-71dec002cc24}</Project>
+      <Name>Styx.GromHSCR.SawMill</Name>
     </ProjectReference>
     <ProjectReference Include="..\Styx.GromHSCR.Service.Api\Styx.GromHSCR.Service.Api.csproj">
       <Project>{8ee661d0-7cfc-49f2-815f-a23516dff7b9}</Project>

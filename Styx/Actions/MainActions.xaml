@@ -3,13 +3,21 @@
 			xmlns:visualActions1="clr-namespace:Styx.GromHSCR.ActionBase.VisualActions;assembly=Styx.GromHSCR.ActionBase"
 			xmlns:properties1="clr-namespace:Styx.Properties"
 			Priority="AboveNormal">
-	<visualActions1:VisualActionGroupTab Header="Главная" KeyTip="M">
-		<visualActions1:VisualActionGroup Title="Распечатки">
-			<visualActions1:VisualAction Title="Список"
+    <visualActions1:VisualActionGroupTab Header="Главная" KeyTip="M" >
+        <visualActions1:VisualActionGroup Title="Распечатки">
+            <visualActions1:VisualAction Title="Список"
 				Icon="{x:Static properties1:Resources.List_Items_32}"
 				CommandName="PrintInfoListCommand"
-				GlobalShortcut="Ctrl+L"
+				GlobalShortcut="Ctrl+P"
 				ScreenTipText="Список распечаток"/>
-		</visualActions1:VisualActionGroup>
-	</visualActions1:VisualActionGroupTab>
+
+        </visualActions1:VisualActionGroup>
+        <visualActions1:VisualActionGroup Title="Приспособления">
+            <visualActions1:VisualAction Title="Лесопилка"
+				Icon="{x:Static properties1:Resources.Table_Link_32}"
+				CommandName="LumberMillCommand"
+				GlobalShortcut="Ctrl+L"
+				ScreenTipText="Зайти в лесопилку"/>
+        </visualActions1:VisualActionGroup>
+    </visualActions1:VisualActionGroupTab>
 </visualActions1:VisualActionContainer>
