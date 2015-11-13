@@ -13,6 +13,7 @@ using iTextSharp.text.pdf.parser;
 using Spire.Pdf;
 using Spire.Pdf.Graphics;
 using Styx.GromHSCR.FleaCatcher;
+using List = DocumentFormat.OpenXml.Office2010.ExcelAc.List;
 using PdfDocument = Spire.Pdf.PdfDocument;
 
 namespace Styx.GromHSCR.SawMill
@@ -53,6 +54,9 @@ namespace Styx.GromHSCR.SawMill
                     var document = new Spire.Pdf.PdfDocument(File.OpenRead(lumber));
                     var endpage = document.Pages.Count;
                     if (endpage < 2) continue;
+                    var addresses = document.Pages.Cast<object>().Select(o => ((PdfPageBase) o).ExtractText()).Count(p => Regex.IsMatch(p, " адрес", RegexOptions.IgnoreCase) || Regex.IsMatch(p, " потребител", RegexOptions.IgnoreCase));
+                    if (addresses < 2) continue;
+                    if (addresses != endpage) continue;
                     var filename = lumber.Split('\\').Last().Replace(".pdf", "");
                     for (int i = 0; i < endpage; i++)
                     {
@@ -60,22 +64,27 @@ namespace Styx.GromHSCR.SawMill
                         PdfPageBase page;
                         page = pdf1.Pages.Add(document.Pages[i].Size, new Spire.Pdf.Graphics.PdfMargins(0), PdfPageRotateAngle.RotateAngle270);
                         document.Pages[i].CreateTemplate().Draw(page, new System.Drawing.PointF(0, 0));
-                        //var text = document.Pages[i].ExtractText();
-                        //var address = helper.SearchAddress(text);
-                        //var system = helper.SearchSystem(text);
-                        //if (string.IsNullOrWhiteSpace(address)) continue;
-                        pdf1.SaveToFile(_outputFolder + "/" + filename + (i + 1) + ".pdf");
+                        var text = document.Pages[i].ExtractText();
+                        if (string.IsNullOrWhiteSpace(text)) continue;
+                        var address = helper.SearchAddress(text);
+                        var system = helper.SearchSystem(text);
+                        if (string.IsNullOrWhiteSpace(address)) continue;
+                        if (filesCount < i + 1)
+                        {
+                            continue; 
+                        }
+                        pdf1.SaveToFile(_outputFolder + "/" + address + " " + system + ".pdf");
                         filesCount++;
                     }
                     if (_isDesolateOriginal)
                         File.Delete(lumber);
                     document.Close();
-
+                    if (filesCount > 0)
                     sawedCount++;
                 }
                 catch (Exception e)
                 {
-                    return new SawResult(){ErrorMessage = e.Message};
+                    return new SawResult() { ErrorMessage = e.Message };
                 }
             }
             return new SawResult() { FilesCount = filesCount, LumberCount = lumberCount, SawedCount = sawedCount, IsOk = true };
@@ -166,6 +175,8 @@ namespace Styx.GromHSCR.SawMill
                             var rtfText = rtfBox.Text;
                             var address = helper.SearchAddress(rtfText);
                             var system = helper.SearchSystem(rtfText);
+                            if (!string.IsNullOrWhiteSpace(address))
+                                address = helper.GetWritableAddress(address);
                             File.WriteAllText(_outputFolder + "/" + address + " " + system + ".rtf", test1);
                             i++;
                             filesCount++;
@@ -177,7 +188,7 @@ namespace Styx.GromHSCR.SawMill
                 }
                 catch (Exception e)
                 {
-                    return new SawResult(){ErrorMessage = e.Message};
+                    return new SawResult() { ErrorMessage = e.Message };
                 }
             }
             return new SawResult() { FilesCount = filesCount, LumberCount = lumberCount, SawedCount = sawedCount, IsOk = true };
