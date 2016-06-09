@@ -65,6 +65,7 @@
     <Compile Include="Documents\ExcelProviderBase.cs" />
     <Compile Include="Documents\ExcelXlsProviderBase.cs" />
     <Compile Include="Documents\PdfProviderBase.cs" />
+    <Compile Include="Documents\TxtParser.cs" />
     <Compile Include="Documents\UniversalPdfParser.cs" />
     <Compile Include="Documents\UniversalVoucherParser.cs" />
     <Compile Include="Documents\UniversalXlsVoucherParser.cs" />
@@ -75,8 +76,8 @@
     <Compile Include="Exceptions\RequiredParametersNotFoundException.cs" />
     <Compile Include="Exceptions\TableNotInitializedException.cs" />
     <Compile Include="Exceptions\WorksheetsNotFoundException.cs" />
+    <Compile Include="Models\ParseResult.cs" />
     <Compile Include="Models\PdfItem.cs" />
-    <Compile Include="Models\PrintInfo.cs" />
     <Compile Include="Parser\VoucherHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -87,6 +88,10 @@
     <ProjectReference Include="..\Styx.GromHSCR.Api\Styx.GromHSCR.Api.csproj">
       <Project>{DF769A92-BEE5-451D-9782-572460E8D650}</Project>
       <Name>Styx.GromHSCR.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Styx.GromHSCR.Helpers\Styx.GromHSCR.Helpers.csproj">
+      <Project>{E83517E4-B85A-4338-9BE5-29D22FCA4E84}</Project>
+      <Name>Styx.GromHSCR.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

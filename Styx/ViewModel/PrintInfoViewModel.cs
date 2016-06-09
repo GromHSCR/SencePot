@@ -95,8 +95,9 @@ namespace Styx.ViewModel
 		public IContract Contract { get; set; }
 		public IEnumerable<IDailyData> DailyDatas { get; set; }
 	    public IEnumerable<IValidationResult> ValidationResults { get; set; }
+		public IEnumerable<IEntry> Entries { get; set; }
 
-	    public decimal? Gmax
+		public decimal? Gmax
 		{
 			get
 			{
@@ -198,6 +199,12 @@ namespace Styx.ViewModel
 				IsModified = true;
 			}
 		}
+
+		public TimeSpan? CurrentWorkTime { get; set; }
+		public decimal? CurrentDayEndTotalEnergy { get; set; }
+		public decimal? CurrentV1 { get; set; }
+		public decimal? CurrentV2 { get; set; }
+
 		public DateTime PrintStartDate
 		{
 			get

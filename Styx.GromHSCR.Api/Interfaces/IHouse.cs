@@ -16,5 +16,7 @@ namespace Styx.GromHSCR.Api.Interfaces
 		IEnumerable<IBuilding> Buildings { get; set; }
 
 		IEnumerable<IHousePrefix> HousePrefixes { get; set; }
+
+		IEnumerable<IEntry> Entries { get; set; }
 	}
 }

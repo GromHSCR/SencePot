@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Styx.GromHSCR.Entities
 {
+	[Table("PrintInfos")]
 	public class PrintInfo : BaseEntity
 	{
 		public int Number { get; set; }
@@ -25,13 +27,27 @@ namespace Styx.GromHSCR.Entities
 
 		public virtual Contract Contract { get; set; }
 
-        public virtual IEnumerable<DailyData> DailyDatas { get; set; }
+		public virtual IEnumerable<DailyData> DailyDatas { get; set; }
 
-        public virtual IEnumerable<ValidationResult> ValidationResults { get; set; }
+		public virtual IEnumerable<ValidationResult> ValidationResults { get; set; }
 
-		public decimal? Gmax { get; set; }
+		//Gmax
+		public decimal? G1max { get; set; }
 
-		public decimal? Gmin { get; set; }
+		//Gmin
+		public decimal? G1min { get; set; }
+
+		//G2max
+		public decimal? G2max { get; set; }
+
+		//G2min
+		public decimal? G2min { get; set; }
+
+		//G2max
+		public decimal? G3max { get; set; }
+
+		//G2min
+		public decimal? G3min { get; set; }
 
 		public decimal? Glinear { get; set; }
 
@@ -41,11 +57,19 @@ namespace Styx.GromHSCR.Entities
 
 		public decimal? Fmax { get; set; }
 
+		public int? CurrentWorkTime { get; set; }
+
+		public decimal? CurrentDayEndTotalEnergy { get; set; }
+
+		public decimal? CurrentV1 { get; set; }
+
+		public decimal? CurrentV2 { get; set; }
+
 		public DateTime PrintStartDate { get; set; }
 
 		public DateTime PrintEndDate { get; set; }
 
-        public DateTime LoadDateTime { get; set; }
+		public DateTime LoadDateTime { get; set; }
 
 	}
 }

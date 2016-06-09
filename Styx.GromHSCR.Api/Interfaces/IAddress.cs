@@ -6,7 +6,7 @@ namespace Styx.GromHSCR.Api.Interfaces
 	{
 		Guid CityId { get; set; }
 
-		Guid RegionId { get; set; }
+		Guid? RegionId { get; set; }
 
 		Guid StreetId { get; set; }
 

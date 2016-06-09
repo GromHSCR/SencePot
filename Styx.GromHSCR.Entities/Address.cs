@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Styx.GromHSCR.Entities
 {
+	[Table("Addresses")]
     public class Address : BaseEntity
     {
         public Guid CityId { get; set; }
 
-        public Guid RegionId { get; set; }
+        public Guid? RegionId { get; set; }
 
         public Guid StreetId { get; set; }
 
@@ -19,7 +21,9 @@ namespace Styx.GromHSCR.Entities
 
         public Guid? BuildingId { get; set; }
 
-        public Guid? HousePrefixId { get; set; }
+		public Guid? HousePrefixId { get; set; }
+
+		public Guid? EntryId { get; set; }
 
         public virtual City City { get; set; }
 
@@ -34,5 +38,7 @@ namespace Styx.GromHSCR.Entities
 		public virtual Housing Housing { get; set; }
 
 		public virtual HousePrefix HousePrefix { get; set; }
+
+		public virtual Entry Entry { get; set; }
     }
 }

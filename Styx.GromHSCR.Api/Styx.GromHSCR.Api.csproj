@@ -43,6 +43,15 @@
     <Reference Include="System.Runtime.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Address.cs" />
+    <Compile Include="Classes\Building.cs" />
+    <Compile Include="Classes\City.cs" />
+    <Compile Include="Classes\House.cs" />
+    <Compile Include="Classes\HousePrefix.cs" />
+    <Compile Include="Classes\Housing.cs" />
+    <Compile Include="Classes\PrintInfo.cs" />
+    <Compile Include="Classes\Region.cs" />
+    <Compile Include="Classes\Street.cs" />
     <Compile Include="Interfaces\IAddress.cs" />
     <Compile Include="Interfaces\IBaseItem.cs" />
     <Compile Include="Interfaces\IBuilding.cs" />
@@ -50,6 +59,7 @@
     <Compile Include="Interfaces\IContract.cs" />
     <Compile Include="Interfaces\ICounterModel.cs" />
     <Compile Include="Interfaces\IDailyData.cs" />
+    <Compile Include="Interfaces\IEntry.cs" />
     <Compile Include="Interfaces\IHeatCounter.cs" />
     <Compile Include="Interfaces\IHeatType.cs" />
     <Compile Include="Interfaces\IHouse.cs" />

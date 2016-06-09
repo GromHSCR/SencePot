@@ -130,7 +130,8 @@ namespace Styx.GromHSCR.Repositories.Migrations
 				CurrentDateTime = DateTime.Now,
 				IsValid = false,
 				ErrorCode = "U",
-				WorkTime = 14
+				WorkingTime = 14,
+				NotWorkingTime = 10
 			};
 			context.DailyDatas.Add(dailyData);
 

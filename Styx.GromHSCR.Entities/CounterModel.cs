@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Styx.GromHSCR.Entities
 {
+	[Table("CounterModels")]
 	public class CounterModel : BaseEntity
 	{
 		public string Name { get; set; }

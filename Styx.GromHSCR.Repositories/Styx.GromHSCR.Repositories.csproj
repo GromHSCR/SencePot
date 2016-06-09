@@ -56,10 +56,6 @@
     <Compile Include="DbManager.cs" />
     <Compile Include="Context\DefaultContext.cs" />
     <Compile Include="Context\IContext.cs" />
-    <Compile Include="Migrations\201510160740518_Initial.cs" />
-    <Compile Include="Migrations\201510160740518_Initial.Designer.cs">
-      <DependentUpon>201510160740518_Initial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IRepository.cs" />
@@ -74,11 +70,6 @@
       <Project>{475974e9-3178-4c8a-99e8-099775160eb3}</Project>
       <Name>Styx.GromHSCR.Entities</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510160740518_Initial.resx">
-      <DependentUpon>201510160740518_Initial.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
